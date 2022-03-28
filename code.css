@@ -17,7 +17,7 @@ div.code_avec_lignes {
 	background: rgb(182, 181, 210); color: rgb(255, 255, 255); padding-right: 2px; padding-left: 2px; font-weight: 700; margin-right: 2px;
 }
 .marge_code_highlight {
-	background: rgb(182, 181, 210); color: red; padding-right: 2px; padding-left: 2px; font-style: italic; margin-right: 2px;
+	background: rgb(182, 181, 210); color: green; padding-right: 2px; padding-left: 2px; font-style: italic; margin-right: 2px;
 }
 .ligne_code_vide {
 	height: 0px; visibility: hidden;
