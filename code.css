@@ -1,0 +1,7758 @@
+code {
+	font: 10pt/normal Courier New, Courier, mono, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+code.contenuCode {
+	font: 10pt/normal Courier New, Courier, mono, sans-serif; padding: 0px; text-align: left; text-decoration: none; font-size-adjust: none; font-stretch: normal;
+}
+div.code_avec_lignes {
+	padding: 13px 0px 13px 10px;
+}
+.code_avec_lignes .code_uniquement {
+	padding-left: 5px;
+}
+.numeros_lignes {
+	padding: 1px 2px 0px 5px; text-align: right; line-height: inherit; font-family: Courier New, Courier, mono, sans-serif; font-size: 10pt; font-style: normal; font-variant: normal; font-weight: normal; margin-right: 5px; float: left; font-size-adjust: none; font-stretch: normal; background-color: rgb(232, 232, 232);
+}
+.marge_code {
+	background: rgb(182, 181, 210); color: rgb(255, 255, 255); padding-right: 2px; padding-left: 2px; font-weight: 700; margin-right: 2px;
+}
+.marge_code_highlight {
+	background: rgb(182, 181, 210); color: red; padding-right: 2px; padding-left: 2px; font-style: italic; margin-right: 2px;
+}
+.ligne_code_vide {
+	height: 0px; visibility: hidden;
+}
+.codeWrapper {
+	width: 100%; height: auto; min-height: 30px;
+}
+* html .codeWrapper {
+	height: 30px;
+}
+.keyword1 {
+	color: rgb(127, 0, 85);
+}
+.keyword2 {
+	color: rgb(0, 51, 255);
+}
+.keyword3 {
+	color: rgb(48, 102, 172);
+}
+.keyword4 {
+	color: rgb(51, 102, 204);
+}
+.function {
+	color: navy;
+}
+.markup {
+	color: navy;
+}
+.operator {
+	color: rgb(127, 0, 85);
+}
+.label {
+	color: olive;
+}
+.digit {
+	color: red;
+}
+.comment1 {
+	color: rgb(63, 127, 95);
+}
+.comment2 {
+	color: rgb(153, 153, 153);
+}
+.comment3 {
+	color: rgb(63, 95, 191);
+}
+.comment4 {
+	color: navy;
+}
+.literal1 {
+	color: rgb(42, 0, 255);
+}
+.literal2 {
+	color: teal;
+}
+.actionscript_keyword1 {
+	color: rgb(51, 102, 204); font-weight: 700;
+}
+.actionscript_keyword2 {
+	color: rgb(51, 102, 204);
+}
+.actionscript_keyword3 {
+	color: rgb(51, 102, 204);
+}
+.actionscript_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.actionscript_function {
+	color: rgb(51, 102, 204);
+}
+.actionscript_markup {
+	color: rgb(51, 102, 204);
+}
+.actionscript_operator {
+	color: rgb(127, 0, 85);
+}
+.actionscript_label {
+	color: olive;
+}
+.actionscript_digit {
+	color: red;
+}
+.actionscript_comment1 {
+	color: green;
+}
+.actionscript_comment2 {
+	color: rgb(153, 153, 153);
+}
+.actionscript_comment3 {
+	color: rgb(63, 95, 191);
+}
+.actionscript_comment4 {
+	color: navy;
+}
+.actionscript_literal1 {
+	color: rgb(153, 51, 153);
+}
+.actionscript_literal2 {
+	color: rgb(51, 102, 204);
+}
+.ada95_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.ada95_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.ada95_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.ada95_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.ada95_function {
+	color: navy;
+}
+.ada95_markup {
+	color: navy;
+}
+.ada95_operator {
+	color: rgb(127, 0, 85);
+}
+.ada95_label {
+	color: olive;
+}
+.ada95_digit {
+	color: red;
+}
+.ada95_comment1 {
+	color: rgb(63, 127, 95);
+}
+.ada95_comment2 {
+	color: rgb(153, 153, 153);
+}
+.ada95_comment3 {
+	color: rgb(63, 95, 191);
+}
+.ada95_comment4 {
+	color: navy;
+}
+.ada95_literal1 {
+	color: rgb(42, 0, 255);
+}
+.ada95_literal2 {
+	color: teal;
+}
+.al_keyword1 {
+	color: rgb(0, 153, 204); font-weight: bold;
+}
+.al_keyword2 {
+	color: rgb(0, 153, 204); font-weight: bold;
+}
+.al_keyword3 {
+	color: rgb(0, 153, 204); font-weight: bold;
+}
+.al_keyword4 {
+	color: rgb(0, 153, 204); font-weight: bold;
+}
+.al_function {
+	color: rgb(51, 51, 51);
+}
+.al_markup {
+	color: rgb(51, 51, 51);
+}
+.al_operator {
+	color: rgb(204, 0, 0);
+}
+.al_label {
+	color: rgb(0, 0, 0);
+}
+.al_digit {
+	color: rgb(153, 51, 204); font-weight: bold;
+}
+.al_comment1 {
+	color: rgb(102, 153, 0); font-style: italic;
+}
+.al_comment2 {
+	color: rgb(102, 153, 0); font-style: italic;
+}
+.al_comment3 {
+	color: rgb(102, 153, 0); font-style: italic;
+}
+.al_comment4 {
+	color: rgb(102, 153, 0); font-style: italic;
+}
+.al_literal1 {
+	color: rgb(153, 51, 204);
+}
+.al_literal2 {
+	color: rgb(153, 51, 204);
+}
+.al_literal3 {
+	color: rgb(153, 51, 204);
+}
+.antlr_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.antlr_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.antlr_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.antlr_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.antlr_function {
+	color: navy;
+}
+.antlr_markup {
+	color: navy;
+}
+.antlr_operator {
+	color: rgb(127, 0, 85);
+}
+.antlr_label {
+	color: olive;
+}
+.antlr_digit {
+	color: red;
+}
+.antlr_comment1 {
+	color: rgb(63, 127, 95);
+}
+.antlr_comment2 {
+	color: rgb(153, 153, 153);
+}
+.antlr_comment3 {
+	color: rgb(63, 95, 191);
+}
+.antlr_comment4 {
+	color: navy;
+}
+.antlr_literal1 {
+	color: rgb(42, 0, 255);
+}
+.antlr_literal2 {
+	color: teal;
+}
+.apacheconf_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.apacheconf_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.apacheconf_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.apacheconf_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.apacheconf_function {
+	color: navy;
+}
+.apacheconf_markup {
+	color: navy;
+}
+.apacheconf_operator {
+	color: rgb(127, 0, 85);
+}
+.apacheconf_label {
+	color: olive;
+}
+.apacheconf_digit {
+	color: red;
+}
+.apacheconf_comment1 {
+	color: rgb(63, 127, 95);
+}
+.apacheconf_comment2 {
+	color: rgb(153, 153, 153);
+}
+.apacheconf_comment3 {
+	color: rgb(63, 95, 191);
+}
+.apacheconf_comment4 {
+	color: navy;
+}
+.apacheconf_literal1 {
+	color: rgb(42, 0, 255);
+}
+.apacheconf_literal2 {
+	color: teal;
+}
+.apdl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.apdl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.apdl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.apdl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.apdl_function {
+	color: navy;
+}
+.apdl_markup {
+	color: navy;
+}
+.apdl_operator {
+	color: rgb(127, 0, 85);
+}
+.apdl_label {
+	color: olive;
+}
+.apdl_digit {
+	color: red;
+}
+.apdl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.apdl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.apdl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.apdl_comment4 {
+	color: navy;
+}
+.apdl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.apdl_literal2 {
+	color: teal;
+}
+.applescript_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.applescript_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.applescript_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.applescript_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.applescript_function {
+	color: navy;
+}
+.applescript_markup {
+	color: navy;
+}
+.applescript_operator {
+	color: rgb(127, 0, 85);
+}
+.applescript_label {
+	color: olive;
+}
+.applescript_digit {
+	color: red;
+}
+.applescript_comment1 {
+	color: rgb(63, 127, 95);
+}
+.applescript_comment2 {
+	color: rgb(153, 153, 153);
+}
+.applescript_comment3 {
+	color: rgb(63, 95, 191);
+}
+.applescript_comment4 {
+	color: navy;
+}
+.applescript_literal1 {
+	color: rgb(42, 0, 255);
+}
+.applescript_literal2 {
+	color: teal;
+}
+.asymptote_comment1 {
+	color: rgb(155, 153, 137);
+}
+.asymptote_comment2 {
+	color: rgb(155, 153, 137);
+}
+.asymptote_function {
+	color: rgb(153, 0, 0);
+}
+.asymptote_literal1 {
+	color: rgb(153, 0, 0);
+}
+.asymptote_literal2 {
+	color: rgb(186, 135, 69);
+}
+.asymptote_keyword1 {
+	color: rgb(0, 0, 255);
+}
+.asymptote_keyword2 {
+	color: rgb(69, 84, 135);
+}
+.asymptote_keyword3 {
+	color: rgb(0, 128, 128);
+}
+.asymptote_keyword4 {
+	color: rgb(73, 172, 73);
+}
+.asymptote_digit {
+	color: rgb(0, 153, 153);
+}
+.as_keyword1 {
+	color: rgb(51, 102, 204); font-weight: 700;
+}
+.as_keyword2 {
+	color: rgb(51, 102, 204);
+}
+.as_keyword3 {
+	color: rgb(51, 102, 204);
+}
+.as_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.as_function {
+	color: rgb(51, 102, 204);
+}
+.as_markup {
+	color: rgb(51, 102, 204);
+}
+.as_operator {
+	color: rgb(127, 0, 85);
+}
+.as_label {
+	color: olive;
+}
+.as_digit {
+	color: red;
+}
+.as_comment1 {
+	color: green;
+}
+.as_comment2 {
+	color: rgb(153, 153, 153);
+}
+.as_comment3 {
+	color: rgb(63, 95, 191);
+}
+.as_comment4 {
+	color: navy;
+}
+.as_literal1 {
+	color: rgb(153, 51, 153);
+}
+.as_literal2 {
+	color: rgb(51, 102, 204);
+}
+.asp_keyword1 {
+	color: rgb(102, 0, 153);
+}
+.asp_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.asp_keyword3 {
+	color: rgb(153, 0, 0); font-weight: 700;
+}
+.asp_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.asp_function {
+	color: rgb(0, 0, 153); font-weight: 700;
+}
+.asp_markup {
+	color: rgb(0, 0, 153); font-weight: 700;
+}
+.asp_operator {
+	color: rgb(127, 0, 85);
+}
+.asp_label {
+	color: olive;
+}
+.asp_digit {
+	color: red;
+}
+.asp_comment1 {
+	color: rgb(153, 153, 153);
+}
+.asp_comment2 {
+	color: rgb(153, 153, 153);
+}
+.asp_comment3 {
+	color: rgb(63, 95, 191);
+}
+.asp_comment4 {
+	color: navy;
+}
+.asp_literal1 {
+	color: rgb(0, 102, 0);
+}
+.asp_literal2 {
+	color: teal;
+}
+.aspect-j_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.aspect-j_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.aspect-j_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.aspect-j_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.aspect-j_function {
+	color: navy;
+}
+.aspect-j_markup {
+	color: navy;
+}
+.aspect-j_operator {
+	color: rgb(127, 0, 85);
+}
+.aspect-j_label {
+	color: olive;
+}
+.aspect-j_digit {
+	color: red;
+}
+.aspect-j_comment1 {
+	color: rgb(63, 127, 95);
+}
+.aspect-j_comment2 {
+	color: rgb(153, 153, 153);
+}
+.aspect-j_comment3 {
+	color: rgb(63, 95, 191);
+}
+.aspect-j_comment4 {
+	color: navy;
+}
+.aspect-j_literal1 {
+	color: rgb(42, 0, 255);
+}
+.aspect-j_literal2 {
+	color: teal;
+}
+.aspnet_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.aspnet_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.aspnet_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.aspnet_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.aspnet_function {
+	color: rgb(146, 63, 22);
+}
+.aspnet_markup {
+	color: rgb(146, 63, 22);
+}
+.aspnet_operator {
+	color: rgb(127, 0, 85);
+}
+.aspnet_label {
+	color: olive;
+}
+.aspnet_digit {
+	color: red;
+}
+.aspnet_comment1 {
+	color: rgb(0, 160, 0);
+}
+.aspnet_comment2 {
+	color: rgb(153, 153, 153);
+}
+.aspnet_comment3 {
+	color: rgb(63, 95, 191);
+}
+.aspnet_comment4 {
+	color: navy;
+}
+.aspnet_literal1 {
+	color: rgb(0, 0, 255);
+}
+.aspnet_literal2 {
+	color: teal;
+}
+.assembly-m68k_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.assembly-m68k_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.assembly-m68k_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.assembly-m68k_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.assembly-m68k_function {
+	color: navy;
+}
+.assembly-m68k_markup {
+	color: navy;
+}
+.assembly-m68k_operator {
+	color: rgb(127, 0, 85);
+}
+.assembly-m68k_label {
+	color: olive;
+}
+.assembly-m68k_digit {
+	color: red;
+}
+.assembly-m68k_comment1 {
+	color: rgb(63, 127, 95);
+}
+.assembly-m68k_comment2 {
+	color: rgb(153, 153, 153);
+}
+.assembly-m68k_comment3 {
+	color: rgb(63, 95, 191);
+}
+.assembly-m68k_comment4 {
+	color: navy;
+}
+.assembly-m68k_literal1 {
+	color: rgb(42, 0, 255);
+}
+.assembly-m68k_literal2 {
+	color: teal;
+}
+.assembly-macro32_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.assembly-macro32_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.assembly-macro32_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.assembly-macro32_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.assembly-macro32_function {
+	color: navy;
+}
+.assembly-macro32_markup {
+	color: navy;
+}
+.assembly-macro32_operator {
+	color: rgb(127, 0, 85);
+}
+.assembly-macro32_label {
+	color: olive;
+}
+.assembly-macro32_digit {
+	color: red;
+}
+.assembly-macro32_comment1 {
+	color: rgb(63, 127, 95);
+}
+.assembly-macro32_comment2 {
+	color: rgb(153, 153, 153);
+}
+.assembly-macro32_comment3 {
+	color: rgb(63, 95, 191);
+}
+.assembly-macro32_comment4 {
+	color: navy;
+}
+.assembly-macro32_literal1 {
+	color: rgb(42, 0, 255);
+}
+.assembly-macro32_literal2 {
+	color: teal;
+}
+.assembly-mcs51_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.assembly-mcs51_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.assembly-mcs51_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.assembly-mcs51_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.assembly-mcs51_function {
+	color: navy;
+}
+.assembly-mcs51_markup {
+	color: navy;
+}
+.assembly-mcs51_operator {
+	color: rgb(127, 0, 85);
+}
+.assembly-mcs51_label {
+	color: olive;
+}
+.assembly-mcs51_digit {
+	color: red;
+}
+.assembly-mcs51_comment1 {
+	color: rgb(63, 127, 95);
+}
+.assembly-mcs51_comment2 {
+	color: rgb(153, 153, 153);
+}
+.assembly-mcs51_comment3 {
+	color: rgb(63, 95, 191);
+}
+.assembly-mcs51_comment4 {
+	color: navy;
+}
+.assembly-mcs51_literal1 {
+	color: rgb(42, 0, 255);
+}
+.assembly-mcs51_literal2 {
+	color: teal;
+}
+.assembly-parrot_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.assembly-parrot_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.assembly-parrot_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.assembly-parrot_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.assembly-parrot_function {
+	color: navy;
+}
+.assembly-parrot_markup {
+	color: navy;
+}
+.assembly-parrot_operator {
+	color: rgb(127, 0, 85);
+}
+.assembly-parrot_label {
+	color: olive;
+}
+.assembly-parrot_digit {
+	color: red;
+}
+.assembly-parrot_comment1 {
+	color: rgb(63, 127, 95);
+}
+.assembly-parrot_comment2 {
+	color: rgb(153, 153, 153);
+}
+.assembly-parrot_comment3 {
+	color: rgb(63, 95, 191);
+}
+.assembly-parrot_comment4 {
+	color: navy;
+}
+.assembly-parrot_literal1 {
+	color: rgb(42, 0, 255);
+}
+.assembly-parrot_literal2 {
+	color: teal;
+}
+.assembly-r2000_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.assembly-r2000_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.assembly-r2000_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.assembly-r2000_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.assembly-r2000_function {
+	color: navy;
+}
+.assembly-r2000_markup {
+	color: navy;
+}
+.assembly-r2000_operator {
+	color: rgb(127, 0, 85);
+}
+.assembly-r2000_label {
+	color: olive;
+}
+.assembly-r2000_digit {
+	color: red;
+}
+.assembly-r2000_comment1 {
+	color: rgb(63, 127, 95);
+}
+.assembly-r2000_comment2 {
+	color: rgb(153, 153, 153);
+}
+.assembly-r2000_comment3 {
+	color: rgb(63, 95, 191);
+}
+.assembly-r2000_comment4 {
+	color: navy;
+}
+.assembly-r2000_literal1 {
+	color: rgb(42, 0, 255);
+}
+.assembly-r2000_literal2 {
+	color: teal;
+}
+.assembly-x86_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.assembly-x86_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.assembly-x86_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.assembly-x86_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.assembly-x86_function {
+	color: navy;
+}
+.assembly-x86_markup {
+	color: navy;
+}
+.assembly-x86_operator {
+	color: rgb(127, 0, 85);
+}
+.assembly-x86_label {
+	color: olive;
+}
+.assembly-x86_digit {
+	color: red;
+}
+.assembly-x86_comment1 {
+	color: rgb(63, 127, 95);
+}
+.assembly-x86_comment2 {
+	color: rgb(153, 153, 153);
+}
+.assembly-x86_comment3 {
+	color: rgb(63, 95, 191);
+}
+.assembly-x86_comment4 {
+	color: navy;
+}
+.assembly-x86_literal1 {
+	color: rgb(42, 0, 255);
+}
+.assembly-x86_literal2 {
+	color: teal;
+}
+.awk_keyword1 {
+	color: rgb(186, 215, 185); font-weight: 700;
+}
+.awk_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.awk_keyword3 {
+	color: rgb(186, 215, 185);
+}
+.awk_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.awk_function {
+	color: navy;
+}
+.awk_markup {
+	color: navy;
+}
+.awk_operator {
+	color: rgb(127, 0, 85);
+}
+.awk_label {
+	color: olive;
+}
+.awk_digit {
+	color: red;
+}
+.awk_comment1 {
+	color: rgb(213, 155, 155); font-weight: 700;
+}
+.awk_comment2 {
+	color: rgb(153, 153, 153);
+}
+.awk_comment3 {
+	color: rgb(63, 95, 191);
+}
+.awk_comment4 {
+	color: navy;
+}
+.awk_literal1 {
+	color: rgb(168, 182, 219);
+}
+.awk_literal2 {
+	color: teal;
+}
+.b_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.b_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.b_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.b_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.b_function {
+	color: navy;
+}
+.b_markup {
+	color: navy;
+}
+.b_operator {
+	color: rgb(127, 0, 85);
+}
+.b_label {
+	color: olive;
+}
+.b_digit {
+	color: red;
+}
+.b_comment1 {
+	color: rgb(63, 127, 95);
+}
+.b_comment2 {
+	color: rgb(153, 153, 153);
+}
+.b_comment3 {
+	color: rgb(63, 95, 191);
+}
+.b_comment4 {
+	color: navy;
+}
+.b_literal1 {
+	color: rgb(42, 0, 255);
+}
+.b_literal2 {
+	color: teal;
+}
+.batch_keyword1 {
+	color: blue; font-weight: bold;
+}
+.batch_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.batch_keyword3 {
+	color: fuchsia; font-weight: bold;
+}
+.batch_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.batch_function {
+	color: navy;
+}
+.batch_markup {
+	color: orange;
+}
+.batch_operator {
+	color: red;
+}
+.batch_label {
+	color: olive;
+}
+.batch_comment1 {
+	color: rgb(63, 127, 95);
+}
+.batch_comment2 {
+	color: rgb(153, 153, 153);
+}
+.bbj_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.bbj_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.bbj_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.bbj_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.bbj_function {
+	color: navy;
+}
+.bbj_markup {
+	color: navy;
+}
+.bbj_operator {
+	color: rgb(127, 0, 85);
+}
+.bbj_label {
+	color: olive;
+}
+.bbj_digit {
+	color: red;
+}
+.bbj_comment1 {
+	color: rgb(63, 127, 95);
+}
+.bbj_comment2 {
+	color: rgb(153, 153, 153);
+}
+.bbj_comment3 {
+	color: rgb(63, 95, 191);
+}
+.bbj_comment4 {
+	color: navy;
+}
+.bbj_literal1 {
+	color: rgb(42, 0, 255);
+}
+.bbj_literal2 {
+	color: teal;
+}
+.bcb_keyword1 {
+	color: rgb(0, 51, 255);
+}
+.bcb_keyword2 {
+	color: rgb(51, 153, 51);
+}
+.bcb_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.bcb_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.bcb_function {
+	color: navy;
+}
+.bcb_markup {
+	color: rgb(51, 153, 51); font-weight: 700;
+}
+.bcb_operator {
+	color: rgb(0, 51, 255);
+}
+.bcb_label {
+	color: olive;
+}
+.bcb_digit {
+	color: red;
+}
+.bcb_comment1 {
+	color: rgb(153, 153, 153);
+}
+.bcb_comment2 {
+	color: rgb(153, 153, 153);
+}
+.bcb_comment3 {
+	color: rgb(63, 95, 191);
+}
+.bcb_comment4 {
+	color: navy;
+}
+.bcb_literal1 {
+	color: rgb(153, 51, 153);
+}
+.bcb_literal2 {
+	color: teal;
+}
+.bcel_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.bcel_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.bcel_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.bcel_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.bcel_function {
+	color: navy;
+}
+.bcel_markup {
+	color: navy;
+}
+.bcel_operator {
+	color: rgb(127, 0, 85);
+}
+.bcel_label {
+	color: olive;
+}
+.bcel_digit {
+	color: red;
+}
+.bcel_comment1 {
+	color: rgb(63, 127, 95);
+}
+.bcel_comment2 {
+	color: rgb(153, 153, 153);
+}
+.bcel_comment3 {
+	color: rgb(63, 95, 191);
+}
+.bcel_comment4 {
+	color: navy;
+}
+.bcel_literal1 {
+	color: rgb(42, 0, 255);
+}
+.bcel_literal2 {
+	color: teal;
+}
+.bibtex_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.bibtex_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.bibtex_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.bibtex_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.bibtex_function {
+	color: navy;
+}
+.bibtex_markup {
+	color: navy;
+}
+.bibtex_operator {
+	color: rgb(127, 0, 85);
+}
+.bibtex_label {
+	color: olive;
+}
+.bibtex_digit {
+	color: red;
+}
+.bibtex_comment1 {
+	color: rgb(63, 127, 95);
+}
+.bibtex_comment2 {
+	color: rgb(153, 153, 153);
+}
+.bibtex_comment3 {
+	color: rgb(63, 95, 191);
+}
+.bibtex_comment4 {
+	color: navy;
+}
+.bibtex_literal1 {
+	color: rgb(42, 0, 255);
+}
+.bibtex_literal2 {
+	color: teal;
+}
+.c_keyword1 {
+	color: rgb(0, 0, 0); font-weight: 700;
+}
+.c_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.c_keyword3 {
+	color: rgb(0, 0, 0); font-weight: 700;
+}
+.c_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.c_function {
+	color: navy;
+}
+.c_markup {
+	color: navy;
+}
+.c_operator {
+	color: navy;
+}
+.c_label {
+	color: olive;
+}
+.c_digit {
+	color: red;
+}
+.c_comment1 {
+	color: navy; font-style: italic;
+}
+.c_comment2 {
+	color: rgb(153, 153, 153);
+}
+.c_comment3 {
+	color: rgb(63, 95, 191);
+}
+.c_comment4 {
+	color: navy;
+}
+.c_literal1 {
+	color: rgb(42, 0, 255);
+}
+.c_literal2 {
+	color: teal;
+}
+.ceylon_keyword1 {
+	color: rgb(128, 0, 128); font-weight: 700;
+}
+.ceylon_keyword2 {
+	color: rgb(0, 128, 128);
+}
+.ceylon_comment1 {
+	color: rgb(128, 128, 128);
+}
+.ceylon_literal1 {
+	color: rgb(0, 0, 255);
+}
+.ceylon_literal2 {
+	color: rgb(0, 0, 128);
+}
+.ceylon_digit {
+	color: rgb(0, 0, 255);
+}
+.chill_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.chill_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.chill_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.chill_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.chill_function {
+	color: navy;
+}
+.chill_markup {
+	color: navy;
+}
+.chill_operator {
+	color: rgb(127, 0, 85);
+}
+.chill_label {
+	color: olive;
+}
+.chill_digit {
+	color: red;
+}
+.chill_comment1 {
+	color: rgb(63, 127, 95);
+}
+.chill_comment2 {
+	color: rgb(153, 153, 153);
+}
+.chill_comment3 {
+	color: rgb(63, 95, 191);
+}
+.chill_comment4 {
+	color: navy;
+}
+.chill_literal1 {
+	color: rgb(42, 0, 255);
+}
+.chill_literal2 {
+	color: teal;
+}
+.cil_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.cil_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.cil_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.cil_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.cil_function {
+	color: navy;
+}
+.cil_markup {
+	color: navy;
+}
+.cil_operator {
+	color: rgb(127, 0, 85);
+}
+.cil_label {
+	color: olive;
+}
+.cil_digit {
+	color: red;
+}
+.cil_comment1 {
+	color: rgb(63, 127, 95);
+}
+.cil_comment2 {
+	color: rgb(153, 153, 153);
+}
+.cil_comment3 {
+	color: rgb(63, 95, 191);
+}
+.cil_comment4 {
+	color: navy;
+}
+.cil_literal1 {
+	color: rgb(42, 0, 255);
+}
+.cil_literal2 {
+	color: teal;
+}
+.cobol_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.cobol_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.cobol_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.cobol_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.cobol_function {
+	color: navy;
+}
+.cobol_markup {
+	color: navy;
+}
+.cobol_operator {
+	color: rgb(127, 0, 85);
+}
+.cobol_label {
+	color: olive;
+}
+.cobol_digit {
+	color: red;
+}
+.cobol_comment1 {
+	color: rgb(63, 127, 95);
+}
+.cobol_comment2 {
+	color: rgb(153, 153, 153);
+}
+.cobol_comment3 {
+	color: rgb(63, 95, 191);
+}
+.cobol_comment4 {
+	color: navy;
+}
+.cobol_literal1 {
+	color: rgb(42, 0, 255);
+}
+.cobol_literal2 {
+	color: teal;
+}
+.coldfusion_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.coldfusion_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.coldfusion_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.coldfusion_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.coldfusion_function {
+	color: navy;
+}
+.coldfusion_markup {
+	color: navy;
+}
+.coldfusion_operator {
+	color: rgb(127, 0, 85);
+}
+.coldfusion_label {
+	color: olive;
+}
+.coldfusion_digit {
+	color: red;
+}
+.coldfusion_comment1 {
+	color: rgb(63, 127, 95);
+}
+.coldfusion_comment2 {
+	color: rgb(153, 153, 153);
+}
+.coldfusion_comment3 {
+	color: rgb(63, 95, 191);
+}
+.coldfusion_comment4 {
+	color: navy;
+}
+.coldfusion_literal1 {
+	color: rgb(42, 0, 255);
+}
+.coldfusion_literal2 {
+	color: teal;
+}
+.cpp_keyword1 {
+	color: rgb(0, 0, 255);
+}
+.cpp_keyword2 {
+	color: rgb(0, 0, 255);
+}
+.cpp_keyword3 {
+	color: rgb(0, 0, 255);
+}
+.cpp_function {
+	font-weight: 700;
+}
+.cpp_markup {
+	font-weight: 700;
+}
+.cpp_operator {
+	color: rgb(127, 0, 85);
+}
+.cpp_label {
+	color: olive;
+}
+.cpp_digit {
+	color: red;
+}
+.cpp_comment1 {
+	color: rgb(136, 136, 136);
+}
+.cpp_comment2 {
+	color: rgb(136, 136, 136);
+}
+.cpp_comment3 {
+	color: rgb(63, 95, 191);
+}
+.cpp_comment4 {
+	color: navy;
+}
+.cpp_literal1 {
+	color: red;
+}
+.cpp_literal2 {
+	color: teal;
+}
+.cpp_literal3 {
+	color: rgb(51, 153, 51);
+}
+.csharp_keyword1 {
+	color: rgb(0, 51, 255);
+}
+.csharp_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.csharp_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.csharp_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.csharp_function {
+	color: navy;
+}
+.csharp_markup {
+	color: navy;
+}
+.csharp_operator {
+	color: navy;
+}
+.csharp_label {
+	color: olive;
+}
+.csharp_digit {
+	color: red;
+}
+.csharp_comment1 {
+	color: green;
+}
+.csharp_comment2 {
+	color: green;
+}
+.csharp_comment3 {
+	color: rgb(63, 95, 191);
+}
+.csharp_comment4 {
+	color: navy;
+}
+.csharp_literal1 {
+	color: rgb(153, 51, 153);
+}
+.csharp_literal2 {
+	color: teal;
+}
+.css_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.css_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.css_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.css_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.css_function {
+	color: navy;
+}
+.css_markup {
+	color: navy;
+}
+.css_operator {
+	color: rgb(127, 0, 85);
+}
+.css_label {
+	color: olive;
+}
+.css_digit {
+	color: red;
+}
+.css_comment1 {
+	color: rgb(63, 127, 95);
+}
+.css_comment2 {
+	color: rgb(153, 153, 153);
+}
+.css_comment3 {
+	color: rgb(63, 95, 191);
+}
+.css_comment4 {
+	color: navy;
+}
+.css_literal1 {
+	color: rgb(42, 0, 255);
+}
+.css_literal2 {
+	color: teal;
+}
+.cvs-commit_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.cvs-commit_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.cvs-commit_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.cvs-commit_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.cvs-commit_function {
+	color: navy;
+}
+.cvs-commit_markup {
+	color: navy;
+}
+.cvs-commit_operator {
+	color: rgb(127, 0, 85);
+}
+.cvs-commit_label {
+	color: olive;
+}
+.cvs-commit_digit {
+	color: red;
+}
+.cvs-commit_comment1 {
+	color: rgb(63, 127, 95);
+}
+.cvs-commit_comment2 {
+	color: rgb(153, 153, 153);
+}
+.cvs-commit_comment3 {
+	color: rgb(63, 95, 191);
+}
+.cvs-commit_comment4 {
+	color: navy;
+}
+.cvs-commit_literal1 {
+	color: rgb(42, 0, 255);
+}
+.cvs-commit_literal2 {
+	color: teal;
+}
+.d_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.d_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.d_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.d_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.d_function {
+	color: navy;
+}
+.d_markup {
+	color: navy;
+}
+.d_operator {
+	color: rgb(127, 0, 85);
+}
+.d_label {
+	color: olive;
+}
+.d_digit {
+	color: red;
+}
+.d_comment1 {
+	color: rgb(63, 127, 95);
+}
+.d_comment2 {
+	color: rgb(153, 153, 153);
+}
+.d_comment3 {
+	color: rgb(63, 95, 191);
+}
+.d_comment4 {
+	color: navy;
+}
+.d_literal1 {
+	color: rgb(42, 0, 255);
+}
+.d_literal2 {
+	color: teal;
+}
+.dart_keyword1 {
+	color: rgb(41, 76, 169);
+}
+.dart_keyword2 {
+	color: rgb(39, 147, 41);
+}
+.dart_literal1 {
+	color: rgb(0, 132, 206);
+}
+.dart_literal2 {
+	color: rgb(47, 47, 121);
+}
+.dart_literal3 {
+	color: rgb(51, 153, 51);
+}
+.dart_comment1 {
+	color: rgb(138, 134, 138);
+}
+.dart_digit {
+	color: rgb(47, 188, 178);
+}
+.delphi_keyword1 {
+	color: navy; font-weight: 700;
+}
+.delphi_keyword2 {
+	color: rgb(0, 0, 0); font-weight: 700;
+}
+.delphi_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.delphi_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.delphi_function {
+	color: navy;
+}
+.delphi_markup {
+	color: navy;
+}
+.delphi_operator {
+	color: rgb(127, 0, 85);
+}
+.delphi_label {
+	color: olive;
+}
+.delphi_digit {
+	color: red;
+}
+.delphi_comment1 {
+	color: navy;
+}
+.delphi_comment2 {
+	color: navy; font-style: italic;
+}
+.delphi_comment3 {
+	color: green;
+}
+.delphi_comment4 {
+	color: navy;
+}
+.delphi_literal1 {
+	color: navy;
+}
+.delphi_literal2 {
+	color: teal;
+}
+.delphinet_keyword1 {
+	color: navy; font-weight: 700;
+}
+.delphinet_keyword2 {
+	color: navy; font-weight: 700;
+}
+.delphinet_keyword3 {
+	color: rgb(0, 0, 0);
+}
+.delphinet_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.delphinet_function {
+	color: navy;
+}
+.delphinet_markup {
+	color: navy;
+}
+.delphinet_operator {
+	color: rgb(127, 0, 85);
+}
+.delphinet_label {
+	color: olive;
+}
+.delphinet_digit {
+	color: blue;
+}
+.delphinet_comment1 {
+	color: rgb(54, 152, 54);
+}
+.delphinet_comment2 {
+	color: rgb(54, 152, 54); font-style: italic;
+}
+.delphinet_comment3 {
+	color: rgb(64, 128, 128);
+}
+.delphinet_comment4 {
+	color: navy;
+}
+.delphinet_literal1 {
+	color: blue;
+}
+.delphinet_literal2 {
+	color: rgb(0, 0, 0);
+}
+.doxygen_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.doxygen_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.doxygen_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.doxygen_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.doxygen_function {
+	color: navy;
+}
+.doxygen_markup {
+	color: navy;
+}
+.doxygen_operator {
+	color: rgb(127, 0, 85);
+}
+.doxygen_label {
+	color: olive;
+}
+.doxygen_digit {
+	color: red;
+}
+.doxygen_comment1 {
+	color: rgb(63, 127, 95);
+}
+.doxygen_comment2 {
+	color: rgb(153, 153, 153);
+}
+.doxygen_comment3 {
+	color: rgb(63, 95, 191);
+}
+.doxygen_comment4 {
+	color: navy;
+}
+.doxygen_literal1 {
+	color: rgb(42, 0, 255);
+}
+.doxygen_literal2 {
+	color: teal;
+}
+.dsssl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.dsssl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.dsssl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.dsssl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.dsssl_function {
+	color: navy;
+}
+.dsssl_markup {
+	color: navy;
+}
+.dsssl_operator {
+	color: rgb(127, 0, 85);
+}
+.dsssl_label {
+	color: olive;
+}
+.dsssl_digit {
+	color: red;
+}
+.dsssl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.dsssl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.dsssl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.dsssl_comment4 {
+	color: navy;
+}
+.dsssl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.dsssl_literal2 {
+	color: teal;
+}
+.eiffel_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.eiffel_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.eiffel_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.eiffel_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.eiffel_function {
+	color: navy;
+}
+.eiffel_markup {
+	color: navy;
+}
+.eiffel_operator {
+	color: rgb(127, 0, 85);
+}
+.eiffel_label {
+	color: olive;
+}
+.eiffel_digit {
+	color: red;
+}
+.eiffel_comment1 {
+	color: rgb(63, 127, 95);
+}
+.eiffel_comment2 {
+	color: rgb(153, 153, 153);
+}
+.eiffel_comment3 {
+	color: rgb(63, 95, 191);
+}
+.eiffel_comment4 {
+	color: navy;
+}
+.eiffel_literal1 {
+	color: rgb(42, 0, 255);
+}
+.eiffel_literal2 {
+	color: teal;
+}
+.embperl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.embperl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.embperl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.embperl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.embperl_function {
+	color: navy;
+}
+.embperl_markup {
+	color: navy;
+}
+.embperl_operator {
+	color: rgb(127, 0, 85);
+}
+.embperl_label {
+	color: olive;
+}
+.embperl_digit {
+	color: red;
+}
+.embperl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.embperl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.embperl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.embperl_comment4 {
+	color: navy;
+}
+.embperl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.embperl_literal2 {
+	color: teal;
+}
+.erlang_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.erlang_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.erlang_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.erlang_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.erlang_function {
+	color: navy;
+}
+.erlang_markup {
+	color: navy;
+}
+.erlang_operator {
+	color: rgb(127, 0, 85);
+}
+.erlang_label {
+	color: olive;
+}
+.erlang_digit {
+	color: red;
+}
+.erlang_comment1 {
+	color: rgb(63, 127, 95);
+}
+.erlang_comment2 {
+	color: rgb(153, 153, 153);
+}
+.erlang_comment3 {
+	color: rgb(63, 95, 191);
+}
+.erlang_comment4 {
+	color: navy;
+}
+.erlang_literal1 {
+	color: rgb(42, 0, 255);
+}
+.erlang_literal2 {
+	color: teal;
+}
+.factor_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.factor_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.factor_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.factor_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.factor_function {
+	color: navy;
+}
+.factor_markup {
+	color: navy;
+}
+.factor_operator {
+	color: rgb(127, 0, 85);
+}
+.factor_label {
+	color: olive;
+}
+.factor_digit {
+	color: red;
+}
+.factor_comment1 {
+	color: rgb(63, 127, 95);
+}
+.factor_comment2 {
+	color: rgb(153, 153, 153);
+}
+.factor_comment3 {
+	color: rgb(63, 95, 191);
+}
+.factor_comment4 {
+	color: navy;
+}
+.factor_literal1 {
+	color: rgb(42, 0, 255);
+}
+.factor_literal2 {
+	color: teal;
+}
+.forth_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.forth_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.forth_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.forth_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.forth_function {
+	color: navy;
+}
+.forth_markup {
+	color: navy;
+}
+.forth_operator {
+	color: rgb(127, 0, 85);
+}
+.forth_label {
+	color: olive;
+}
+.forth_digit {
+	color: red;
+}
+.forth_comment1 {
+	color: rgb(63, 127, 95);
+}
+.forth_comment2 {
+	color: rgb(153, 153, 153);
+}
+.forth_comment3 {
+	color: rgb(63, 95, 191);
+}
+.forth_comment4 {
+	color: navy;
+}
+.forth_literal1 {
+	color: rgb(42, 0, 255);
+}
+.forth_literal2 {
+	color: teal;
+}
+.fortran_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.fortran_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.fortran_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.fortran_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.fortran_function {
+	color: navy;
+}
+.fortran_markup {
+	color: navy;
+}
+.fortran_operator {
+	color: rgb(127, 0, 85);
+}
+.fortran_label {
+	color: olive;
+}
+.fortran_digit {
+	color: red;
+}
+.fortran_comment1 {
+	color: rgb(63, 127, 95);
+}
+.fortran_comment2 {
+	color: rgb(153, 153, 153);
+}
+.fortran_comment3 {
+	color: rgb(63, 95, 191);
+}
+.fortran_comment4 {
+	color: navy;
+}
+.fortran_literal1 {
+	color: rgb(42, 0, 255);
+}
+.fortran_literal2 {
+	color: teal;
+}
+.foxpro_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.foxpro_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.foxpro_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.foxpro_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.foxpro_function {
+	color: navy;
+}
+.foxpro_markup {
+	color: navy;
+}
+.foxpro_operator {
+	color: rgb(127, 0, 85);
+}
+.foxpro_label {
+	color: olive;
+}
+.foxpro_digit {
+	color: red;
+}
+.foxpro_comment1 {
+	color: rgb(63, 127, 95);
+}
+.foxpro_comment2 {
+	color: rgb(153, 153, 153);
+}
+.foxpro_comment3 {
+	color: rgb(63, 95, 191);
+}
+.foxpro_comment4 {
+	color: navy;
+}
+.foxpro_literal1 {
+	color: rgb(42, 0, 255);
+}
+.foxpro_literal2 {
+	color: teal;
+}
+.freemarker_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.freemarker_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.freemarker_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.freemarker_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.freemarker_function {
+	color: navy;
+}
+.freemarker_markup {
+	color: navy;
+}
+.freemarker_operator {
+	color: rgb(127, 0, 85);
+}
+.freemarker_label {
+	color: olive;
+}
+.freemarker_digit {
+	color: red;
+}
+.freemarker_comment1 {
+	color: rgb(63, 127, 95);
+}
+.freemarker_comment2 {
+	color: rgb(153, 153, 153);
+}
+.freemarker_comment3 {
+	color: rgb(63, 95, 191);
+}
+.freemarker_comment4 {
+	color: navy;
+}
+.freemarker_literal1 {
+	color: rgb(42, 0, 255);
+}
+.freemarker_literal2 {
+	color: teal;
+}
+.gettext_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.gettext_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.gettext_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.gettext_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.gettext_function {
+	color: navy;
+}
+.gettext_markup {
+	color: navy;
+}
+.gettext_operator {
+	color: rgb(127, 0, 85);
+}
+.gettext_label {
+	color: olive;
+}
+.gettext_digit {
+	color: red;
+}
+.gettext_comment1 {
+	color: rgb(63, 127, 95);
+}
+.gettext_comment2 {
+	color: rgb(153, 153, 153);
+}
+.gettext_comment3 {
+	color: rgb(63, 95, 191);
+}
+.gettext_comment4 {
+	color: navy;
+}
+.gettext_literal1 {
+	color: rgb(42, 0, 255);
+}
+.gettext_literal2 {
+	color: teal;
+}
+.glsl_keyword1 {
+	color: rgb(0, 0, 0); font-weight: 700;
+}
+.glsl_keyword2 {
+	color: green;
+}
+.glsl_keyword3 {
+	color: rgb(0, 0, 0); font-style: italic; font-weight: 700;
+}
+.glsl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.glsl_function {
+	color: navy;
+}
+.glsl_markup {
+	color: green;
+}
+.glsl_operator {
+	color: navy;
+}
+.glsl_label {
+	color: olive;
+}
+.glsl_digit {
+	color: red;
+}
+.glsl_comment1 {
+	color: navy;
+}
+.glsl_comment2 {
+	color: navy; font-style: italic;
+}
+.glsl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.glsl_comment4 {
+	color: navy;
+}
+.glsl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.glsl_literal2 {
+	color: teal;
+}
+.gnuplot_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.gnuplot_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.gnuplot_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.gnuplot_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.gnuplot_function {
+	color: navy;
+}
+.gnuplot_markup {
+	color: navy;
+}
+.gnuplot_operator {
+	color: rgb(127, 0, 85);
+}
+.gnuplot_label {
+	color: olive;
+}
+.gnuplot_digit {
+	color: red;
+}
+.gnuplot_comment1 {
+	color: rgb(63, 127, 95);
+}
+.gnuplot_comment2 {
+	color: rgb(153, 153, 153);
+}
+.gnuplot_comment3 {
+	color: rgb(63, 95, 191);
+}
+.gnuplot_comment4 {
+	color: navy;
+}
+.gnuplot_literal1 {
+	color: rgb(42, 0, 255);
+}
+.gnuplot_literal2 {
+	color: teal;
+}
+.go_comment1 {
+	color: rgb(128, 128, 0);
+}
+.go_literal1 {
+	color: rgb(0, 0, 255);
+}
+.go_literal2 {
+	color: rgb(0, 0, 255); font-weight: bold;
+}
+.go_operator {
+	color: rgb(127, 0, 85);
+}
+.go_keyword1 {
+	color: rgb(0, 102, 153); font-weight: bold;
+}
+.go_keyword3 {
+	color: rgb(0, 128, 0);
+}
+.go_function {
+	font-weight: bold;
+}
+.go_digit {
+	color: rgb(255, 0, 0);
+}
+.groovy_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.groovy_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.groovy_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.groovy_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.groovy_function {
+	color: navy;
+}
+.groovy_markup {
+	color: navy;
+}
+.groovy_operator {
+	color: rgb(127, 0, 85);
+}
+.groovy_label {
+	color: olive;
+}
+.groovy_digit {
+	color: red;
+}
+.groovy_comment1 {
+	color: rgb(63, 127, 95);
+}
+.groovy_comment2 {
+	color: rgb(153, 153, 153);
+}
+.groovy_comment3 {
+	color: rgb(63, 95, 191);
+}
+.groovy_comment4 {
+	color: navy;
+}
+.groovy_literal1 {
+	color: rgb(42, 0, 255);
+}
+.groovy_literal2 {
+	color: teal;
+}
+.haskell_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.haskell_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.haskell_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.haskell_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.haskell_function {
+	color: navy;
+}
+.haskell_markup {
+	color: navy;
+}
+.haskell_operator {
+	color: rgb(127, 0, 85);
+}
+.haskell_label {
+	color: olive;
+}
+.haskell_digit {
+	color: red;
+}
+.haskell_comment1 {
+	color: rgb(63, 127, 95);
+}
+.haskell_comment2 {
+	color: rgb(153, 153, 153);
+}
+.haskell_comment3 {
+	color: rgb(63, 95, 191);
+}
+.haskell_comment4 {
+	color: navy;
+}
+.haskell_literal1 {
+	color: rgb(42, 0, 255);
+}
+.haskell_literal2 {
+	color: teal;
+}
+.hex_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.hex_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.hex_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.hex_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.hex_function {
+	color: navy;
+}
+.hex_markup {
+	color: navy;
+}
+.hex_operator {
+	color: rgb(127, 0, 85);
+}
+.hex_label {
+	color: olive;
+}
+.hex_digit {
+	color: red;
+}
+.hex_comment1 {
+	color: rgb(63, 127, 95);
+}
+.hex_comment2 {
+	color: rgb(153, 153, 153);
+}
+.hex_comment3 {
+	color: rgb(63, 95, 191);
+}
+.hex_comment4 {
+	color: navy;
+}
+.hex_literal1 {
+	color: rgb(42, 0, 255);
+}
+.hex_literal2 {
+	color: teal;
+}
+.hlsl_keyword1 {
+	color: rgb(0, 0, 0); font-weight: 700;
+}
+.hlsl_keyword2 {
+	color: green;
+}
+.hlsl_keyword3 {
+	color: rgb(0, 0, 0); font-style: italic; font-weight: 700;
+}
+.hlsl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.hlsl_function {
+	color: navy;
+}
+.hlsl_markup {
+	color: green;
+}
+.hlsl_operator {
+	color: navy;
+}
+.hlsl_label {
+	color: olive;
+}
+.hlsl_digit {
+	color: red;
+}
+.hlsl_comment1 {
+	color: navy;
+}
+.hlsl_comment2 {
+	color: navy; font-style: italic;
+}
+.hlsl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.hlsl_comment4 {
+	color: navy;
+}
+.hlsl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.hlsl_literal2 {
+	color: teal;
+}
+.htaccess_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.htaccess_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.htaccess_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.htaccess_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.htaccess_function {
+	color: navy;
+}
+.htaccess_markup {
+	color: navy;
+}
+.htaccess_operator {
+	color: rgb(127, 0, 85);
+}
+.htaccess_label {
+	color: olive;
+}
+.htaccess_digit {
+	color: red;
+}
+.htaccess_comment1 {
+	color: rgb(63, 127, 95);
+}
+.htaccess_comment2 {
+	color: rgb(153, 153, 153);
+}
+.htaccess_comment3 {
+	color: rgb(63, 95, 191);
+}
+.htaccess_comment4 {
+	color: navy;
+}
+.htaccess_literal1 {
+	color: rgb(42, 0, 255);
+}
+.htaccess_literal2 {
+	color: teal;
+}
+.html_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.html_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.html_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.html_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.html_function {
+	color: navy;
+}
+.html_markup {
+	color: navy;
+}
+.html_operator {
+	color: rgb(127, 0, 85);
+}
+.html_label {
+	color: olive;
+}
+.html_digit {
+	color: red;
+}
+.html_comment1 {
+	color: rgb(63, 127, 95);
+}
+.html_comment2 {
+	color: rgb(153, 153, 153);
+}
+.html_comment3 {
+	color: rgb(63, 95, 191);
+}
+.html_comment4 {
+	color: navy;
+}
+.html_literal1 {
+	color: rgb(42, 0, 255);
+}
+.html_literal2 {
+	color: teal;
+}
+.i4gl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.i4gl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.i4gl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.i4gl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.i4gl_function {
+	color: navy;
+}
+.i4gl_markup {
+	color: navy;
+}
+.i4gl_operator {
+	color: rgb(127, 0, 85);
+}
+.i4gl_label {
+	color: olive;
+}
+.i4gl_digit {
+	color: red;
+}
+.i4gl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.i4gl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.i4gl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.i4gl_comment4 {
+	color: navy;
+}
+.i4gl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.i4gl_literal2 {
+	color: teal;
+}
+.icon_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.icon_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.icon_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.icon_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.icon_function {
+	color: navy;
+}
+.icon_markup {
+	color: navy;
+}
+.icon_operator {
+	color: rgb(127, 0, 85);
+}
+.icon_label {
+	color: olive;
+}
+.icon_digit {
+	color: red;
+}
+.icon_comment1 {
+	color: rgb(63, 127, 95);
+}
+.icon_comment2 {
+	color: rgb(153, 153, 153);
+}
+.icon_comment3 {
+	color: rgb(63, 95, 191);
+}
+.icon_comment4 {
+	color: navy;
+}
+.icon_literal1 {
+	color: rgb(42, 0, 255);
+}
+.icon_literal2 {
+	color: teal;
+}
+.idl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.idl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.idl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.idl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.idl_function {
+	color: navy;
+}
+.idl_markup {
+	color: navy;
+}
+.idl_operator {
+	color: rgb(127, 0, 85);
+}
+.idl_label {
+	color: olive;
+}
+.idl_digit {
+	color: red;
+}
+.idl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.idl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.idl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.idl_comment4 {
+	color: navy;
+}
+.idl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.idl_literal2 {
+	color: teal;
+}
+.inform_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.inform_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.inform_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.inform_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.inform_function {
+	color: navy;
+}
+.inform_markup {
+	color: navy;
+}
+.inform_operator {
+	color: rgb(127, 0, 85);
+}
+.inform_label {
+	color: olive;
+}
+.inform_digit {
+	color: red;
+}
+.inform_comment1 {
+	color: rgb(63, 127, 95);
+}
+.inform_comment2 {
+	color: rgb(153, 153, 153);
+}
+.inform_comment3 {
+	color: rgb(63, 95, 191);
+}
+.inform_comment4 {
+	color: navy;
+}
+.inform_literal1 {
+	color: rgb(42, 0, 255);
+}
+.inform_literal2 {
+	color: teal;
+}
+.ini_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.ini_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.ini_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.ini_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.ini_function {
+	color: navy;
+}
+.ini_markup {
+	color: navy;
+}
+.ini_operator {
+	color: rgb(127, 0, 85);
+}
+.ini_label {
+	color: olive;
+}
+.ini_digit {
+	color: red;
+}
+.ini_comment1 {
+	color: rgb(63, 127, 95);
+}
+.ini_comment2 {
+	color: rgb(153, 153, 153);
+}
+.ini_comment3 {
+	color: rgb(63, 95, 191);
+}
+.ini_comment4 {
+	color: navy;
+}
+.ini_literal1 {
+	color: rgb(42, 0, 255);
+}
+.ini_literal2 {
+	color: teal;
+}
+.inno-setup_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.inno-setup_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.inno-setup_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.inno-setup_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.inno-setup_function {
+	color: navy;
+}
+.inno-setup_markup {
+	color: navy;
+}
+.inno-setup_operator {
+	color: rgb(127, 0, 85);
+}
+.inno-setup_label {
+	color: olive;
+}
+.inno-setup_digit {
+	color: red;
+}
+.inno-setup_comment1 {
+	color: rgb(63, 127, 95);
+}
+.inno-setup_comment2 {
+	color: rgb(153, 153, 153);
+}
+.inno-setup_comment3 {
+	color: rgb(63, 95, 191);
+}
+.inno-setup_comment4 {
+	color: navy;
+}
+.inno-setup_literal1 {
+	color: rgb(42, 0, 255);
+}
+.inno-setup_literal2 {
+	color: teal;
+}
+.interlis_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.interlis_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.interlis_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.interlis_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.interlis_function {
+	color: navy;
+}
+.interlis_markup {
+	color: navy;
+}
+.interlis_operator {
+	color: rgb(127, 0, 85);
+}
+.interlis_label {
+	color: olive;
+}
+.interlis_digit {
+	color: red;
+}
+.interlis_comment1 {
+	color: rgb(63, 127, 95);
+}
+.interlis_comment2 {
+	color: rgb(153, 153, 153);
+}
+.interlis_comment3 {
+	color: rgb(63, 95, 191);
+}
+.interlis_comment4 {
+	color: navy;
+}
+.interlis_literal1 {
+	color: rgb(42, 0, 255);
+}
+.interlis_literal2 {
+	color: teal;
+}
+.io_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.io_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.io_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.io_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.io_function {
+	color: navy;
+}
+.io_markup {
+	color: navy;
+}
+.io_operator {
+	color: rgb(127, 0, 85);
+}
+.io_label {
+	color: olive;
+}
+.io_digit {
+	color: red;
+}
+.io_comment1 {
+	color: rgb(63, 127, 95);
+}
+.io_comment2 {
+	color: rgb(153, 153, 153);
+}
+.io_comment3 {
+	color: rgb(63, 95, 191);
+}
+.io_comment4 {
+	color: navy;
+}
+.io_literal1 {
+	color: rgb(42, 0, 255);
+}
+.io_literal2 {
+	color: teal;
+}
+.java_keyword1 {
+	color: rgb(127, 0, 85); font-weight: 700;
+}
+.java_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.java_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.java_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.java_function {
+	color: navy;
+}
+.java_markup {
+	color: navy;
+}
+.java_operator {
+	color: rgb(127, 0, 85);
+}
+.java_label {
+	color: rgb(51, 102, 204); font-weight: 700;
+}
+.java_digit {
+	color: red;
+}
+.java_comment1 {
+	color: rgb(63, 127, 95);
+}
+.java_comment2 {
+	color: rgb(153, 153, 153);
+}
+.java_comment3 {
+	color: rgb(63, 95, 191);
+}
+.java_comment4 {
+	color: navy;
+}
+.java_literal1 {
+	color: rgb(42, 0, 255);
+}
+.java_literal2 {
+	color: teal;
+}
+.javacc_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.javacc_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.javacc_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.javacc_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.javacc_function {
+	color: navy;
+}
+.javacc_markup {
+	color: navy;
+}
+.javacc_operator {
+	color: rgb(127, 0, 85);
+}
+.javacc_label {
+	color: olive;
+}
+.javacc_digit {
+	color: red;
+}
+.javacc_comment1 {
+	color: rgb(63, 127, 95);
+}
+.javacc_comment2 {
+	color: rgb(153, 153, 153);
+}
+.javacc_comment3 {
+	color: rgb(63, 95, 191);
+}
+.javacc_comment4 {
+	color: navy;
+}
+.javacc_literal1 {
+	color: rgb(42, 0, 255);
+}
+.javacc_literal2 {
+	color: teal;
+}
+.javascript_keyword1 {
+	color: rgb(127, 0, 85); font-weight: 700;
+}
+.javascript_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.javascript_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.javascript_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.javascript_function {
+	color: navy;
+}
+.javascript_markup {
+	color: navy;
+}
+.javascript_operator {
+	color: rgb(127, 0, 85);
+}
+.javascript_label {
+	color: olive;
+}
+.javascript_digit {
+	color: red;
+}
+.javascript_comment1 {
+	color: rgb(63, 127, 95);
+}
+.javascript_comment2 {
+	color: rgb(153, 153, 153);
+}
+.javascript_comment3 {
+	color: rgb(63, 95, 191);
+}
+.javascript_comment4 {
+	color: navy;
+}
+.javascript_literal1 {
+	color: rgb(42, 0, 255);
+}
+.javascript_literal2 {
+	color: teal;
+}
+.jcl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.jcl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.jcl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.jcl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.jcl_function {
+	color: navy;
+}
+.jcl_markup {
+	color: navy;
+}
+.jcl_operator {
+	color: rgb(127, 0, 85);
+}
+.jcl_label {
+	color: olive;
+}
+.jcl_digit {
+	color: red;
+}
+.jcl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.jcl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.jcl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.jcl_comment4 {
+	color: navy;
+}
+.jcl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.jcl_literal2 {
+	color: teal;
+}
+.jhtml_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.jhtml_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.jhtml_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.jhtml_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.jhtml_function {
+	color: navy;
+}
+.jhtml_markup {
+	color: navy;
+}
+.jhtml_operator {
+	color: rgb(127, 0, 85);
+}
+.jhtml_label {
+	color: olive;
+}
+.jhtml_digit {
+	color: red;
+}
+.jhtml_comment1 {
+	color: rgb(63, 127, 95);
+}
+.jhtml_comment2 {
+	color: rgb(153, 153, 153);
+}
+.jhtml_comment3 {
+	color: rgb(63, 95, 191);
+}
+.jhtml_comment4 {
+	color: navy;
+}
+.jhtml_literal1 {
+	color: rgb(42, 0, 255);
+}
+.jhtml_literal2 {
+	color: teal;
+}
+.jmk_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.jmk_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.jmk_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.jmk_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.jmk_function {
+	color: navy;
+}
+.jmk_markup {
+	color: navy;
+}
+.jmk_operator {
+	color: rgb(127, 0, 85);
+}
+.jmk_label {
+	color: olive;
+}
+.jmk_digit {
+	color: red;
+}
+.jmk_comment1 {
+	color: rgb(63, 127, 95);
+}
+.jmk_comment2 {
+	color: rgb(153, 153, 153);
+}
+.jmk_comment3 {
+	color: rgb(63, 95, 191);
+}
+.jmk_comment4 {
+	color: navy;
+}
+.jmk_literal1 {
+	color: rgb(42, 0, 255);
+}
+.jmk_literal2 {
+	color: teal;
+}
+.js_keyword1 {
+	color: rgb(127, 0, 85); font-weight: 700;
+}
+.js_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.js_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.js_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.js_function {
+	color: navy;
+}
+.js_markup {
+	color: navy;
+}
+.js_operator {
+	color: rgb(127, 0, 85);
+}
+.js_label {
+	color: olive;
+}
+.js_digit {
+	color: red;
+}
+.js_comment1 {
+	color: rgb(63, 127, 95);
+}
+.js_comment2 {
+	color: rgb(153, 153, 153);
+}
+.js_comment3 {
+	color: rgb(63, 95, 191);
+}
+.js_comment4 {
+	color: navy;
+}
+.js_literal1 {
+	color: rgb(42, 0, 255);
+}
+.js_literal2 {
+	color: teal;
+}
+.jsp_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.jsp_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.jsp_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.jsp_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.jsp_function {
+	color: navy;
+}
+.jsp_markup {
+	color: navy;
+}
+.jsp_operator {
+	color: rgb(127, 0, 85);
+}
+.jsp_label {
+	color: olive;
+}
+.jsp_digit {
+	color: red;
+}
+.jsp_comment1 {
+	color: rgb(63, 127, 95);
+}
+.jsp_comment2 {
+	color: rgb(153, 153, 153);
+}
+.jsp_comment3 {
+	color: rgb(63, 95, 191);
+}
+.jsp_comment4 {
+	color: navy;
+}
+.jsp_literal1 {
+	color: rgb(42, 0, 255);
+}
+.jsp_literal2 {
+	color: teal;
+}
+.latex_comment1 {
+	color: rgb(96, 96, 96);
+}
+.latex_digit {
+	color: rgb(102, 0, 102);
+}
+.latex_keyword1 {
+	color: rgb(136, 0, 0);
+}
+.latex_keyword2 {
+	color: rgb(0, 0, 136); font-weight: bold;
+}
+.latex_keyword3 {
+	color: rgb(0, 102, 153);
+}
+.latex_literal1 {
+	color: rgb(0, 128, 0);
+}
+.latex_literal2 {
+	color: rgb(154, 77, 0);
+}
+.lilypond_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.lilypond_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.lilypond_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.lilypond_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.lilypond_function {
+	color: navy;
+}
+.lilypond_markup {
+	color: navy;
+}
+.lilypond_operator {
+	color: rgb(127, 0, 85);
+}
+.lilypond_label {
+	color: olive;
+}
+.lilypond_digit {
+	color: red;
+}
+.lilypond_comment1 {
+	color: rgb(63, 127, 95);
+}
+.lilypond_comment2 {
+	color: rgb(153, 153, 153);
+}
+.lilypond_comment3 {
+	color: rgb(63, 95, 191);
+}
+.lilypond_comment4 {
+	color: navy;
+}
+.lilypond_literal1 {
+	color: rgb(42, 0, 255);
+}
+.lilypond_literal2 {
+	color: teal;
+}
+.linux_keyword1 {
+	color: rgb(0, 0, 0); font-weight: 700;
+}
+.linux_keyword2 {
+	color: rgb(0, 0, 0); font-style: italic; font-weight: 700;
+}
+.linux_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.linux_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.linux_function {
+	color: navy;
+}
+.linux_markup {
+	color: navy;
+}
+.linux_operator {
+	color: rgb(127, 0, 85);
+}
+.linux_label {
+	color: olive;
+}
+.linux_digit {
+	color: rgb(153, 0, 0);
+}
+.linux_comment1 {
+	color: rgb(153, 153, 153);
+}
+.linux_comment2 {
+	color: rgb(153, 153, 153); font-weight: 700;
+}
+.linux_comment3 {
+	color: rgb(63, 95, 191);
+}
+.linux_comment4 {
+	color: navy;
+}
+.linux_literal1 {
+	color: green;
+}
+.linux_literal2 {
+	color: teal;
+}
+.lisp_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.lisp_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.lisp_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.lisp_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.lisp_function {
+	color: navy;
+}
+.lisp_markup {
+	color: navy;
+}
+.lisp_operator {
+	color: rgb(127, 0, 85);
+}
+.lisp_label {
+	color: olive;
+}
+.lisp_digit {
+	color: red;
+}
+.lisp_comment1 {
+	color: rgb(63, 127, 95);
+}
+.lisp_comment2 {
+	color: rgb(153, 153, 153);
+}
+.lisp_comment3 {
+	color: rgb(63, 95, 191);
+}
+.lisp_comment4 {
+	color: navy;
+}
+.lisp_literal1 {
+	color: rgb(42, 0, 255);
+}
+.lisp_literal2 {
+	color: teal;
+}
+.literate-haskell_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.literate-haskell_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.literate-haskell_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.literate-haskell_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.literate-haskell_function {
+	color: navy;
+}
+.literate-haskell_markup {
+	color: navy;
+}
+.literate-haskell_operator {
+	color: rgb(127, 0, 85);
+}
+.literate-haskell_label {
+	color: olive;
+}
+.literate-haskell_digit {
+	color: red;
+}
+.literate-haskell_comment1 {
+	color: rgb(63, 127, 95);
+}
+.literate-haskell_comment2 {
+	color: rgb(153, 153, 153);
+}
+.literate-haskell_comment3 {
+	color: rgb(63, 95, 191);
+}
+.literate-haskell_comment4 {
+	color: navy;
+}
+.literate-haskell_literal1 {
+	color: rgb(42, 0, 255);
+}
+.literate-haskell_literal2 {
+	color: teal;
+}
+.lotos_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.lotos_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.lotos_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.lotos_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.lotos_function {
+	color: navy;
+}
+.lotos_markup {
+	color: navy;
+}
+.lotos_operator {
+	color: rgb(127, 0, 85);
+}
+.lotos_label {
+	color: olive;
+}
+.lotos_digit {
+	color: red;
+}
+.lotos_comment1 {
+	color: rgb(63, 127, 95);
+}
+.lotos_comment2 {
+	color: rgb(153, 153, 153);
+}
+.lotos_comment3 {
+	color: rgb(63, 95, 191);
+}
+.lotos_comment4 {
+	color: navy;
+}
+.lotos_literal1 {
+	color: rgb(42, 0, 255);
+}
+.lotos_literal2 {
+	color: teal;
+}
+.lua_keyword1 {
+	color: rgb(0, 0, 255); font-weight: bold;
+}
+.lua_keyword2 {
+	color: rgb(32, 137, 223); font-style: italic; font-weight: bold;
+}
+.lua_keyword3 {
+	color: rgb(161, 6, 132); font-style: italic; font-weight: bold;
+}
+.lua_keyword4 {
+	color: rgb(0, 0, 160); font-style: italic; font-weight: bold;
+}
+.lua_operator {
+	color: red; font-weight: bold;
+}
+.lua_digit {
+	color: rgb(237, 127, 16); font-weight: bold;
+}
+.lua_comment1 {
+	color: rgb(0, 128, 0); font-style: italic;
+}
+.lua_comment2 {
+	color: rgb(0, 128, 0);
+}
+.lua_literal1 {
+	color: rgb(128, 128, 128);
+}
+.lua_literal2 {
+	color: rgb(161, 6, 132);
+}
+.mail_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.mail_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.mail_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.mail_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.mail_function {
+	color: navy;
+}
+.mail_markup {
+	color: navy;
+}
+.mail_operator {
+	color: rgb(127, 0, 85);
+}
+.mail_label {
+	color: olive;
+}
+.mail_digit {
+	color: red;
+}
+.mail_comment1 {
+	color: rgb(63, 127, 95);
+}
+.mail_comment2 {
+	color: rgb(153, 153, 153);
+}
+.mail_comment3 {
+	color: rgb(63, 95, 191);
+}
+.mail_comment4 {
+	color: navy;
+}
+.mail_literal1 {
+	color: rgb(42, 0, 255);
+}
+.mail_literal2 {
+	color: teal;
+}
+.makefile_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.makefile_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.makefile_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.makefile_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.makefile_function {
+	color: navy;
+}
+.makefile_markup {
+	color: navy;
+}
+.makefile_operator {
+	color: rgb(127, 0, 85);
+}
+.makefile_label {
+	color: olive;
+}
+.makefile_digit {
+	color: red;
+}
+.makefile_comment1 {
+	color: rgb(63, 127, 95);
+}
+.makefile_comment2 {
+	color: rgb(153, 153, 153);
+}
+.makefile_comment3 {
+	color: rgb(63, 95, 191);
+}
+.makefile_comment4 {
+	color: navy;
+}
+.makefile_literal1 {
+	color: rgb(42, 0, 255);
+}
+.makefile_literal2 {
+	color: teal;
+}
+.maple_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.maple_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.maple_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.maple_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.maple_function {
+	color: navy;
+}
+.maple_markup {
+	color: navy;
+}
+.maple_operator {
+	color: rgb(127, 0, 85);
+}
+.maple_label {
+	color: olive;
+}
+.maple_digit {
+	color: red;
+}
+.maple_comment1 {
+	color: rgb(63, 127, 95);
+}
+.maple_comment2 {
+	color: rgb(153, 153, 153);
+}
+.maple_comment3 {
+	color: rgb(63, 95, 191);
+}
+.maple_comment4 {
+	color: navy;
+}
+.maple_literal1 {
+	color: rgb(42, 0, 255);
+}
+.maple_literal2 {
+	color: teal;
+}
+.matlab_keyword1 {
+	color: rgb(0, 0, 255);
+}
+.matlab_keyword2 {
+	color: rgb(0, 0, 255);
+}
+.matlab_comment1 {
+	color: rgb(34, 139, 34); font-weight: 700;
+}
+.matlab_comment2 {
+	color: rgb(34, 139, 34);
+}
+.matlab_literal1 {
+	color: rgb(178, 140, 0);
+}
+.matlab_literal2 {
+	color: rgb(255, 100, 0);
+}
+.matlab_literal3 {
+	color: red;
+}
+.matlab_literal4 {
+	color: rgb(160, 32, 240);
+}
+.ml_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.ml_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.ml_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.ml_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.ml_function {
+	color: navy;
+}
+.ml_markup {
+	color: navy;
+}
+.ml_operator {
+	color: rgb(127, 0, 85);
+}
+.ml_label {
+	color: olive;
+}
+.ml_digit {
+	color: red;
+}
+.ml_comment1 {
+	color: rgb(63, 127, 95);
+}
+.ml_comment2 {
+	color: rgb(153, 153, 153);
+}
+.ml_comment3 {
+	color: rgb(63, 95, 191);
+}
+.ml_comment4 {
+	color: navy;
+}
+.ml_literal1 {
+	color: rgb(42, 0, 255);
+}
+.ml_literal2 {
+	color: teal;
+}
+.modula3_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.modula3_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.modula3_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.modula3_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.modula3_function {
+	color: navy;
+}
+.modula3_markup {
+	color: navy;
+}
+.modula3_operator {
+	color: rgb(127, 0, 85);
+}
+.modula3_label {
+	color: olive;
+}
+.modula3_digit {
+	color: red;
+}
+.modula3_comment1 {
+	color: rgb(63, 127, 95);
+}
+.modula3_comment2 {
+	color: rgb(153, 153, 153);
+}
+.modula3_comment3 {
+	color: rgb(63, 95, 191);
+}
+.modula3_comment4 {
+	color: navy;
+}
+.modula3_literal1 {
+	color: rgb(42, 0, 255);
+}
+.modula3_literal2 {
+	color: teal;
+}
+.moin_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.moin_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.moin_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.moin_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.moin_function {
+	color: navy;
+}
+.moin_markup {
+	color: navy;
+}
+.moin_operator {
+	color: rgb(127, 0, 85);
+}
+.moin_label {
+	color: olive;
+}
+.moin_digit {
+	color: red;
+}
+.moin_comment1 {
+	color: rgb(63, 127, 95);
+}
+.moin_comment2 {
+	color: rgb(153, 153, 153);
+}
+.moin_comment3 {
+	color: rgb(63, 95, 191);
+}
+.moin_comment4 {
+	color: navy;
+}
+.moin_literal1 {
+	color: rgb(42, 0, 255);
+}
+.moin_literal2 {
+	color: teal;
+}
+.mqsc_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.mqsc_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.mqsc_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.mqsc_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.mqsc_function {
+	color: navy;
+}
+.mqsc_markup {
+	color: navy;
+}
+.mqsc_operator {
+	color: rgb(127, 0, 85);
+}
+.mqsc_label {
+	color: olive;
+}
+.mqsc_digit {
+	color: red;
+}
+.mqsc_comment1 {
+	color: rgb(63, 127, 95);
+}
+.mqsc_comment2 {
+	color: rgb(153, 153, 153);
+}
+.mqsc_comment3 {
+	color: rgb(63, 95, 191);
+}
+.mqsc_comment4 {
+	color: navy;
+}
+.mqsc_literal1 {
+	color: rgb(42, 0, 255);
+}
+.mqsc_literal2 {
+	color: teal;
+}
+.myghty_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.myghty_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.myghty_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.myghty_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.myghty_function {
+	color: navy;
+}
+.myghty_markup {
+	color: navy;
+}
+.myghty_operator {
+	color: rgb(127, 0, 85);
+}
+.myghty_label {
+	color: olive;
+}
+.myghty_digit {
+	color: red;
+}
+.myghty_comment1 {
+	color: rgb(63, 127, 95);
+}
+.myghty_comment2 {
+	color: rgb(153, 153, 153);
+}
+.myghty_comment3 {
+	color: rgb(63, 95, 191);
+}
+.myghty_comment4 {
+	color: navy;
+}
+.myghty_literal1 {
+	color: rgb(42, 0, 255);
+}
+.myghty_literal2 {
+	color: teal;
+}
+.netrexx_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.netrexx_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.netrexx_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.netrexx_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.netrexx_function {
+	color: navy;
+}
+.netrexx_markup {
+	color: navy;
+}
+.netrexx_operator {
+	color: rgb(127, 0, 85);
+}
+.netrexx_label {
+	color: olive;
+}
+.netrexx_digit {
+	color: red;
+}
+.netrexx_comment1 {
+	color: rgb(63, 127, 95);
+}
+.netrexx_comment2 {
+	color: rgb(153, 153, 153);
+}
+.netrexx_comment3 {
+	color: rgb(63, 95, 191);
+}
+.netrexx_comment4 {
+	color: navy;
+}
+.netrexx_literal1 {
+	color: rgb(42, 0, 255);
+}
+.netrexx_literal2 {
+	color: teal;
+}
+.nqc_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.nqc_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.nqc_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.nqc_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.nqc_function {
+	color: navy;
+}
+.nqc_markup {
+	color: navy;
+}
+.nqc_operator {
+	color: rgb(127, 0, 85);
+}
+.nqc_label {
+	color: olive;
+}
+.nqc_digit {
+	color: red;
+}
+.nqc_comment1 {
+	color: rgb(63, 127, 95);
+}
+.nqc_comment2 {
+	color: rgb(153, 153, 153);
+}
+.nqc_comment3 {
+	color: rgb(63, 95, 191);
+}
+.nqc_comment4 {
+	color: navy;
+}
+.nqc_literal1 {
+	color: rgb(42, 0, 255);
+}
+.nqc_literal2 {
+	color: teal;
+}
+.nsis2_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.nsis2_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.nsis2_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.nsis2_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.nsis2_function {
+	color: navy;
+}
+.nsis2_markup {
+	color: navy;
+}
+.nsis2_operator {
+	color: rgb(127, 0, 85);
+}
+.nsis2_label {
+	color: olive;
+}
+.nsis2_digit {
+	color: red;
+}
+.nsis2_comment1 {
+	color: rgb(63, 127, 95);
+}
+.nsis2_comment2 {
+	color: rgb(153, 153, 153);
+}
+.nsis2_comment3 {
+	color: rgb(63, 95, 191);
+}
+.nsis2_comment4 {
+	color: navy;
+}
+.nsis2_literal1 {
+	color: rgb(42, 0, 255);
+}
+.nsis2_literal2 {
+	color: teal;
+}
+.obasic_operator {
+	color: rgb(0, 0, 128);
+}
+.obasic_keyword1 {
+	color: rgb(0, 0, 128);
+}
+.obasic_literal1 {
+	color: rgb(0, 128, 0);
+}
+.obasic_literal2 {
+	color: rgb(255, 0, 0);
+}
+.obasic_comment1 {
+	color: rgb(128, 128, 128);
+}
+.obasic_digit {
+	color: rgb(255, 0, 0);
+}
+.objective-c_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.objective-c_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.objective-c_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.objective-c_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.objective-c_function {
+	color: navy;
+}
+.objective-c_markup {
+	color: navy;
+}
+.objective-c_operator {
+	color: rgb(127, 0, 85);
+}
+.objective-c_label {
+	color: olive;
+}
+.objective-c_digit {
+	color: red;
+}
+.objective-c_comment1 {
+	color: rgb(63, 127, 95);
+}
+.objective-c_comment2 {
+	color: rgb(153, 153, 153);
+}
+.objective-c_comment3 {
+	color: rgb(63, 95, 191);
+}
+.objective-c_comment4 {
+	color: navy;
+}
+.objective-c_literal1 {
+	color: rgb(42, 0, 255);
+}
+.objective-c_literal2 {
+	color: teal;
+}
+.objectrexx_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.objectrexx_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.objectrexx_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.objectrexx_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.objectrexx_function {
+	color: navy;
+}
+.objectrexx_markup {
+	color: navy;
+}
+.objectrexx_operator {
+	color: rgb(127, 0, 85);
+}
+.objectrexx_label {
+	color: olive;
+}
+.objectrexx_digit {
+	color: red;
+}
+.objectrexx_comment1 {
+	color: rgb(63, 127, 95);
+}
+.objectrexx_comment2 {
+	color: rgb(153, 153, 153);
+}
+.objectrexx_comment3 {
+	color: rgb(63, 95, 191);
+}
+.objectrexx_comment4 {
+	color: navy;
+}
+.objectrexx_literal1 {
+	color: rgb(42, 0, 255);
+}
+.objectrexx_literal2 {
+	color: teal;
+}
+.ocaml_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.ocaml_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.ocaml_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.ocaml_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.ocaml_function {
+	color: navy;
+}
+.ocaml_markup {
+	color: navy;
+}
+.ocaml_operator {
+	color: rgb(127, 0, 85);
+}
+.ocaml_label {
+	color: olive;
+}
+.ocaml_digit {
+	color: red;
+}
+.ocaml_comment1 {
+	color: rgb(63, 127, 95);
+}
+.ocaml_comment2 {
+	color: rgb(153, 153, 153);
+}
+.ocaml_comment3 {
+	color: rgb(63, 95, 191);
+}
+.ocaml_comment4 {
+	color: navy;
+}
+.ocaml_literal1 {
+	color: rgb(42, 0, 255);
+}
+.ocaml_literal2 {
+	color: teal;
+}
+.occam_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.occam_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.occam_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.occam_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.occam_function {
+	color: navy;
+}
+.occam_markup {
+	color: navy;
+}
+.occam_operator {
+	color: rgb(127, 0, 85);
+}
+.occam_label {
+	color: olive;
+}
+.occam_digit {
+	color: red;
+}
+.occam_comment1 {
+	color: rgb(63, 127, 95);
+}
+.occam_comment2 {
+	color: rgb(153, 153, 153);
+}
+.occam_comment3 {
+	color: rgb(63, 95, 191);
+}
+.occam_comment4 {
+	color: navy;
+}
+.occam_literal1 {
+	color: rgb(42, 0, 255);
+}
+.occam_literal2 {
+	color: teal;
+}
+.omnimark_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.omnimark_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.omnimark_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.omnimark_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.omnimark_function {
+	color: navy;
+}
+.omnimark_markup {
+	color: navy;
+}
+.omnimark_operator {
+	color: rgb(127, 0, 85);
+}
+.omnimark_label {
+	color: olive;
+}
+.omnimark_digit {
+	color: red;
+}
+.omnimark_comment1 {
+	color: rgb(63, 127, 95);
+}
+.omnimark_comment2 {
+	color: rgb(153, 153, 153);
+}
+.omnimark_comment3 {
+	color: rgb(63, 95, 191);
+}
+.omnimark_comment4 {
+	color: navy;
+}
+.omnimark_literal1 {
+	color: rgb(42, 0, 255);
+}
+.omnimark_literal2 {
+	color: teal;
+}
+.oracle_keyword1 {
+	color: navy; font-weight: 700;
+}
+.oracle_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.oracle_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.oracle_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.oracle_function {
+	color: navy;
+}
+.oracle_markup {
+	color: navy;
+}
+.oracle_operator {
+	color: rgb(127, 0, 85);
+}
+.oracle_label {
+	color: olive;
+}
+.oracle_digit {
+	color: red;
+}
+.oracle_comment1 {
+	color: green;
+}
+.oracle_comment2 {
+	color: rgb(153, 153, 153);
+}
+.oracle_comment3 {
+	color: rgb(63, 95, 191);
+}
+.oracle_comment4 {
+	color: navy;
+}
+.oracle_literal1 {
+	color: rgb(42, 0, 255);
+}
+.oracle_literal2 {
+	color: teal;
+}
+.other_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.other_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.other_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.other_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.other_function {
+	color: navy;
+}
+.other_markup {
+	color: navy;
+}
+.other_operator {
+	color: rgb(127, 0, 85);
+}
+.other_label {
+	color: olive;
+}
+.other_digit {
+	color: red;
+}
+.other_comment1 {
+	color: rgb(63, 127, 95);
+}
+.other_comment2 {
+	color: rgb(153, 153, 153);
+}
+.other_comment3 {
+	color: rgb(63, 95, 191);
+}
+.other_comment4 {
+	color: navy;
+}
+.other_literal1 {
+	color: rgb(42, 0, 255);
+}
+.other_literal2 {
+	color: teal;
+}
+.pascal_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.pascal_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.pascal_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.pascal_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.pascal_function {
+	color: navy;
+}
+.pascal_markup {
+	color: navy;
+}
+.pascal_operator {
+	color: rgb(127, 0, 85);
+}
+.pascal_label {
+	color: olive;
+}
+.pascal_digit {
+	color: red;
+}
+.pascal_comment1 {
+	color: navy; font-style: italic;
+}
+.pascal_comment2 {
+	color: rgb(153, 153, 153);
+}
+.pascal_comment3 {
+	color: rgb(63, 95, 191);
+}
+.pascal_comment4 {
+	color: navy;
+}
+.pascal_literal1 {
+	color: rgb(42, 0, 255);
+}
+.pascal_literal2 {
+	color: teal;
+}
+.patch_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.patch_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.patch_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.patch_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.patch_function {
+	color: navy;
+}
+.patch_markup {
+	color: navy;
+}
+.patch_operator {
+	color: rgb(127, 0, 85);
+}
+.patch_label {
+	color: olive;
+}
+.patch_digit {
+	color: red;
+}
+.patch_comment1 {
+	color: rgb(63, 127, 95);
+}
+.patch_comment2 {
+	color: rgb(153, 153, 153);
+}
+.patch_comment3 {
+	color: rgb(63, 95, 191);
+}
+.patch_comment4 {
+	color: navy;
+}
+.patch_literal1 {
+	color: rgb(42, 0, 255);
+}
+.patch_literal2 {
+	color: teal;
+}
+.perl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.perl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.perl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.perl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.perl_function {
+	color: navy;
+}
+.perl_markup {
+	color: navy;
+}
+.perl_operator {
+	color: rgb(127, 0, 85);
+}
+.perl_label {
+	color: olive;
+}
+.perl_digit {
+	color: red;
+}
+.perl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.perl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.perl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.perl_comment4 {
+	color: navy;
+}
+.perl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.perl_literal2 {
+	color: teal;
+}
+.perso_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.perso_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.perso_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.perso_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.perso_function {
+	color: navy;
+}
+.perso_markup {
+	color: navy;
+}
+.perso_operator {
+	color: rgb(127, 0, 85);
+}
+.perso_label {
+	color: olive;
+}
+.perso_digit {
+	color: red;
+}
+.perso_comment1 {
+	color: rgb(63, 127, 95);
+}
+.perso_comment2 {
+	color: rgb(153, 153, 153);
+}
+.perso_comment3 {
+	color: rgb(63, 95, 191);
+}
+.perso_comment4 {
+	color: navy;
+}
+.perso_literal1 {
+	color: rgb(42, 0, 255);
+}
+.perso_literal2 {
+	color: teal;
+}
+.php_keyword1 {
+	color: rgb(0, 0, 0); font-weight: 700;
+}
+.php_mixte_keyword1 {
+	color: rgb(0, 0, 0); font-weight: 700;
+}
+.php_keyword2 {
+	color: navy;
+}
+.php_mixte_keyword2 {
+	color: navy;
+}
+.php_keyword3 {
+	color: rgb(153, 51, 153);
+}
+.php_mixte_keyword3 {
+	color: rgb(153, 51, 153);
+}
+.php_keyword4 {
+	color: rgb(153, 51, 153);
+}
+.php_mixte_keyword4 {
+	color: rgb(153, 51, 153);
+}
+.php_function {
+	color: navy; text-decoration: none;
+}
+.php_mixte_function {
+	color: navy; text-decoration: none;
+}
+.php_markup {
+	color: navy;
+}
+.php_mixte_markup {
+	color: navy;
+}
+.php_operator {
+	color: rgb(0, 0, 0);
+}
+.php_mixte_operator {
+	color: rgb(0, 0, 0);
+}
+.php_label {
+	color: red;
+}
+.php_mixte_label {
+	color: red;
+}
+.php_digit {
+	color: red;
+}
+.php_mixte_digit {
+	color: red;
+}
+.php_comment1 {
+	color: rgb(153, 153, 153);
+}
+.php_mixte_comment1 {
+	color: rgb(153, 153, 153);
+}
+.php_comment2 {
+	color: rgb(153, 153, 153);
+}
+.php_mixte_comment2 {
+	color: rgb(153, 153, 153);
+}
+.php_comment3 {
+	color: rgb(153, 153, 153);
+}
+.php_mixte_comment3 {
+	color: rgb(153, 153, 153);
+}
+.php_comment4 {
+	color: rgb(153, 153, 153);
+}
+.php_mixte_comment4 {
+	color: rgb(153, 153, 153);
+}
+.php_literal1 {
+	color: rgb(42, 0, 255);
+}
+.php_mixte_literal1 {
+	color: rgb(42, 0, 255);
+}
+.php_literal2 {
+	color: teal;
+}
+.php_mixte_literal2 {
+	color: teal;
+}
+.pike_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.pike_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.pike_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.pike_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.pike_function {
+	color: navy;
+}
+.pike_markup {
+	color: navy;
+}
+.pike_operator {
+	color: rgb(127, 0, 85);
+}
+.pike_label {
+	color: olive;
+}
+.pike_digit {
+	color: red;
+}
+.pike_comment1 {
+	color: rgb(63, 127, 95);
+}
+.pike_comment2 {
+	color: rgb(153, 153, 153);
+}
+.pike_comment3 {
+	color: rgb(63, 95, 191);
+}
+.pike_comment4 {
+	color: navy;
+}
+.pike_literal1 {
+	color: rgb(42, 0, 255);
+}
+.pike_literal2 {
+	color: teal;
+}
+.pl-sql_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.pl-sql_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.pl-sql_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.pl-sql_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.pl-sql_function {
+	color: navy;
+}
+.pl-sql_markup {
+	color: navy;
+}
+.pl-sql_operator {
+	color: rgb(127, 0, 85);
+}
+.pl-sql_label {
+	color: olive;
+}
+.pl-sql_digit {
+	color: red;
+}
+.pl-sql_comment1 {
+	color: rgb(63, 127, 95);
+}
+.pl-sql_comment2 {
+	color: rgb(153, 153, 153);
+}
+.pl-sql_comment3 {
+	color: rgb(63, 95, 191);
+}
+.pl-sql_comment4 {
+	color: navy;
+}
+.pl-sql_literal1 {
+	color: rgb(42, 0, 255);
+}
+.pl-sql_literal2 {
+	color: teal;
+}
+.pl1_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.pl1_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.pl1_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.pl1_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.pl1_function {
+	color: navy;
+}
+.pl1_markup {
+	color: navy;
+}
+.pl1_operator {
+	color: rgb(127, 0, 85);
+}
+.pl1_label {
+	color: olive;
+}
+.pl1_digit {
+	color: red;
+}
+.pl1_comment1 {
+	color: rgb(63, 127, 95);
+}
+.pl1_comment2 {
+	color: rgb(153, 153, 153);
+}
+.pl1_comment3 {
+	color: rgb(63, 95, 191);
+}
+.pl1_comment4 {
+	color: navy;
+}
+.pl1_literal1 {
+	color: rgb(42, 0, 255);
+}
+.pl1_literal2 {
+	color: teal;
+}
+.pop11_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.pop11_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.pop11_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.pop11_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.pop11_function {
+	color: navy;
+}
+.pop11_markup {
+	color: navy;
+}
+.pop11_operator {
+	color: rgb(127, 0, 85);
+}
+.pop11_label {
+	color: olive;
+}
+.pop11_digit {
+	color: red;
+}
+.pop11_comment1 {
+	color: rgb(63, 127, 95);
+}
+.pop11_comment2 {
+	color: rgb(153, 153, 153);
+}
+.pop11_comment3 {
+	color: rgb(63, 95, 191);
+}
+.pop11_comment4 {
+	color: navy;
+}
+.pop11_literal1 {
+	color: rgb(42, 0, 255);
+}
+.pop11_literal2 {
+	color: teal;
+}
+.postgresql_keyword1 {
+	color: rgb(0, 51, 255);
+}
+.postgresql_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.postgresql_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.postgresql_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.postgresql_function {
+	color: navy;
+}
+.postgresql_markup {
+	color: navy;
+}
+.postgresql_operator {
+	color: rgb(127, 0, 85);
+}
+.postgresql_label {
+	color: olive;
+}
+.postgresql_digit {
+	color: red;
+}
+.postgresql_comment1 {
+	color: rgb(63, 127, 95);
+}
+.postgresql_comment2 {
+	color: rgb(153, 153, 153);
+}
+.postgresql_comment3 {
+	color: rgb(63, 95, 191);
+}
+.postgresql_comment4 {
+	color: navy;
+}
+.postgresql_literal1 {
+	color: rgb(127, 0, 85);
+}
+.postgresql_literal2 {
+	color: teal;
+}
+.postscript_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.postscript_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.postscript_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.postscript_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.postscript_function {
+	color: navy;
+}
+.postscript_markup {
+	color: navy;
+}
+.postscript_operator {
+	color: rgb(127, 0, 85);
+}
+.postscript_label {
+	color: olive;
+}
+.postscript_digit {
+	color: red;
+}
+.postscript_comment1 {
+	color: rgb(63, 127, 95);
+}
+.postscript_comment2 {
+	color: rgb(153, 153, 153);
+}
+.postscript_comment3 {
+	color: rgb(63, 95, 191);
+}
+.postscript_comment4 {
+	color: navy;
+}
+.postscript_literal1 {
+	color: rgb(42, 0, 255);
+}
+.postscript_literal2 {
+	color: teal;
+}
+.povray_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.povray_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.povray_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.povray_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.povray_function {
+	color: navy;
+}
+.povray_markup {
+	color: navy;
+}
+.povray_operator {
+	color: rgb(127, 0, 85);
+}
+.povray_label {
+	color: olive;
+}
+.povray_digit {
+	color: red;
+}
+.povray_comment1 {
+	color: rgb(63, 127, 95);
+}
+.povray_comment2 {
+	color: rgb(153, 153, 153);
+}
+.povray_comment3 {
+	color: rgb(63, 95, 191);
+}
+.povray_comment4 {
+	color: navy;
+}
+.povray_literal1 {
+	color: rgb(42, 0, 255);
+}
+.povray_literal2 {
+	color: teal;
+}
+.powerdynamo_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.powerdynamo_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.powerdynamo_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.powerdynamo_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.powerdynamo_function {
+	color: navy;
+}
+.powerdynamo_markup {
+	color: navy;
+}
+.powerdynamo_operator {
+	color: rgb(127, 0, 85);
+}
+.powerdynamo_label {
+	color: olive;
+}
+.powerdynamo_digit {
+	color: red;
+}
+.powerdynamo_comment1 {
+	color: rgb(63, 127, 95);
+}
+.powerdynamo_comment2 {
+	color: rgb(153, 153, 153);
+}
+.powerdynamo_comment3 {
+	color: rgb(63, 95, 191);
+}
+.powerdynamo_comment4 {
+	color: navy;
+}
+.powerdynamo_literal1 {
+	color: rgb(42, 0, 255);
+}
+.powerdynamo_literal2 {
+	color: teal;
+}
+.progress_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.progress_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.progress_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.progress_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.progress_function {
+	color: navy;
+}
+.progress_markup {
+	color: navy;
+}
+.progress_operator {
+	color: rgb(127, 0, 85);
+}
+.progress_label {
+	color: olive;
+}
+.progress_digit {
+	color: red;
+}
+.progress_comment1 {
+	color: rgb(63, 127, 95);
+}
+.progress_comment2 {
+	color: rgb(153, 153, 153);
+}
+.progress_comment3 {
+	color: rgb(63, 95, 191);
+}
+.progress_comment4 {
+	color: navy;
+}
+.progress_literal1 {
+	color: rgb(42, 0, 255);
+}
+.progress_literal2 {
+	color: teal;
+}
+.prolog_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.prolog_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.prolog_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.prolog_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.prolog_function {
+	color: navy;
+}
+.prolog_markup {
+	color: navy;
+}
+.prolog_operator {
+	color: rgb(127, 0, 85);
+}
+.prolog_label {
+	color: olive;
+}
+.prolog_digit {
+	color: red;
+}
+.prolog_comment1 {
+	color: rgb(63, 127, 95);
+}
+.prolog_comment2 {
+	color: rgb(153, 153, 153);
+}
+.prolog_comment3 {
+	color: rgb(63, 95, 191);
+}
+.prolog_comment4 {
+	color: navy;
+}
+.prolog_literal1 {
+	color: rgb(42, 0, 255);
+}
+.prolog_literal2 {
+	color: teal;
+}
+.props_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.props_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.props_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.props_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.props_function {
+	color: navy;
+}
+.props_markup {
+	color: navy;
+}
+.props_operator {
+	color: rgb(127, 0, 85);
+}
+.props_label {
+	color: olive;
+}
+.props_digit {
+	color: red;
+}
+.props_comment1 {
+	color: rgb(63, 127, 95);
+}
+.props_comment2 {
+	color: rgb(153, 153, 153);
+}
+.props_comment3 {
+	color: rgb(63, 95, 191);
+}
+.props_comment4 {
+	color: navy;
+}
+.props_literal1 {
+	color: rgb(42, 0, 255);
+}
+.props_literal2 {
+	color: teal;
+}
+.psp_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.psp_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.psp_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.psp_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.psp_function {
+	color: navy;
+}
+.psp_markup {
+	color: navy;
+}
+.psp_operator {
+	color: rgb(127, 0, 85);
+}
+.psp_label {
+	color: olive;
+}
+.psp_digit {
+	color: red;
+}
+.psp_comment1 {
+	color: rgb(63, 127, 95);
+}
+.psp_comment2 {
+	color: rgb(153, 153, 153);
+}
+.psp_comment3 {
+	color: rgb(63, 95, 191);
+}
+.psp_comment4 {
+	color: navy;
+}
+.psp_literal1 {
+	color: rgb(42, 0, 255);
+}
+.psp_literal2 {
+	color: teal;
+}
+.ptl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.ptl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.ptl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.ptl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.ptl_function {
+	color: navy;
+}
+.ptl_markup {
+	color: navy;
+}
+.ptl_operator {
+	color: rgb(127, 0, 85);
+}
+.ptl_label {
+	color: olive;
+}
+.ptl_digit {
+	color: red;
+}
+.ptl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.ptl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.ptl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.ptl_comment4 {
+	color: navy;
+}
+.ptl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.ptl_literal2 {
+	color: teal;
+}
+.pvwave_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.pvwave_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.pvwave_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.pvwave_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.pvwave_function {
+	color: navy;
+}
+.pvwave_markup {
+	color: navy;
+}
+.pvwave_operator {
+	color: rgb(127, 0, 85);
+}
+.pvwave_label {
+	color: olive;
+}
+.pvwave_digit {
+	color: red;
+}
+.pvwave_comment1 {
+	color: rgb(63, 127, 95);
+}
+.pvwave_comment2 {
+	color: rgb(153, 153, 153);
+}
+.pvwave_comment3 {
+	color: rgb(63, 95, 191);
+}
+.pvwave_comment4 {
+	color: navy;
+}
+.pvwave_literal1 {
+	color: rgb(42, 0, 255);
+}
+.pvwave_literal2 {
+	color: teal;
+}
+.pyrex_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.pyrex_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.pyrex_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.pyrex_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.pyrex_function {
+	color: navy;
+}
+.pyrex_markup {
+	color: navy;
+}
+.pyrex_operator {
+	color: rgb(127, 0, 85);
+}
+.pyrex_label {
+	color: olive;
+}
+.pyrex_digit {
+	color: red;
+}
+.pyrex_comment1 {
+	color: rgb(63, 127, 95);
+}
+.pyrex_comment2 {
+	color: rgb(153, 153, 153);
+}
+.pyrex_comment3 {
+	color: rgb(63, 95, 191);
+}
+.pyrex_comment4 {
+	color: navy;
+}
+.pyrex_literal1 {
+	color: rgb(42, 0, 255);
+}
+.pyrex_literal2 {
+	color: teal;
+}
+.python_keyword1 {
+	color: rgb(255, 128, 64);
+}
+.python_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.python_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.python_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.python_function {
+	color: navy;
+}
+.python_markup {
+	color: navy;
+}
+.python_operator {
+	color: rgb(127, 0, 85);
+}
+.python_label {
+	color: olive;
+}
+.python_digit {
+	color: red;
+}
+.python_comment1 {
+	color: rgb(153, 153, 153);
+}
+.python_comment2 {
+	color: rgb(153, 153, 153);
+}
+.python_comment3 {
+	color: rgb(153, 153, 153);
+}
+.python_comment4 {
+	color: rgb(153, 153, 153);
+}
+.python_literal1 {
+	color: rgb(51, 153, 51);
+}
+.python_literal2 {
+	color: teal;
+}
+.r_digit {
+	color: rgb(255, 102, 0);
+}
+.r_literal1 {
+	color: rgb(255, 0, 0);
+}
+.r_literal2 {
+	color: rgb(0, 0, 255); font-weight: bold;
+}
+.r_comment1 {
+	color: rgb(34, 139, 34);
+}
+.r_operator {
+	color: rgb(0, 136, 0);
+}
+.r_keyword1 {
+	color: rgb(0, 0, 255); font-weight: bold;
+}
+.r_keyword2 {
+	color: rgb(0, 0, 255);
+}
+.r_keyword3 {
+	color: rgb(176, 7, 255); font-weight: bold;
+}
+.rd_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.rd_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.rd_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.rd_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.rd_function {
+	color: navy;
+}
+.rd_markup {
+	color: navy;
+}
+.rd_operator {
+	color: rgb(127, 0, 85);
+}
+.rd_label {
+	color: olive;
+}
+.rd_digit {
+	color: red;
+}
+.rd_comment1 {
+	color: rgb(63, 127, 95);
+}
+.rd_comment2 {
+	color: rgb(153, 153, 153);
+}
+.rd_comment3 {
+	color: rgb(63, 95, 191);
+}
+.rd_comment4 {
+	color: navy;
+}
+.rd_literal1 {
+	color: rgb(42, 0, 255);
+}
+.rd_literal2 {
+	color: teal;
+}
+.rebol_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.rebol_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.rebol_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.rebol_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.rebol_function {
+	color: navy;
+}
+.rebol_markup {
+	color: navy;
+}
+.rebol_operator {
+	color: rgb(127, 0, 85);
+}
+.rebol_label {
+	color: olive;
+}
+.rebol_digit {
+	color: red;
+}
+.rebol_comment1 {
+	color: rgb(63, 127, 95);
+}
+.rebol_comment2 {
+	color: rgb(153, 153, 153);
+}
+.rebol_comment3 {
+	color: rgb(63, 95, 191);
+}
+.rebol_comment4 {
+	color: navy;
+}
+.rebol_literal1 {
+	color: rgb(42, 0, 255);
+}
+.rebol_literal2 {
+	color: teal;
+}
+.redcode_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.redcode_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.redcode_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.redcode_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.redcode_function {
+	color: navy;
+}
+.redcode_markup {
+	color: navy;
+}
+.redcode_operator {
+	color: rgb(127, 0, 85);
+}
+.redcode_label {
+	color: olive;
+}
+.redcode_digit {
+	color: red;
+}
+.redcode_comment1 {
+	color: rgb(63, 127, 95);
+}
+.redcode_comment2 {
+	color: rgb(153, 153, 153);
+}
+.redcode_comment3 {
+	color: rgb(63, 95, 191);
+}
+.redcode_comment4 {
+	color: navy;
+}
+.redcode_literal1 {
+	color: rgb(42, 0, 255);
+}
+.redcode_literal2 {
+	color: teal;
+}
+.relax-ng-compact_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.relax-ng-compact_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.relax-ng-compact_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.relax-ng-compact_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.relax-ng-compact_function {
+	color: navy;
+}
+.relax-ng-compact_markup {
+	color: navy;
+}
+.relax-ng-compact_operator {
+	color: rgb(127, 0, 85);
+}
+.relax-ng-compact_label {
+	color: olive;
+}
+.relax-ng-compact_digit {
+	color: red;
+}
+.relax-ng-compact_comment1 {
+	color: rgb(63, 127, 95);
+}
+.relax-ng-compact_comment2 {
+	color: rgb(153, 153, 153);
+}
+.relax-ng-compact_comment3 {
+	color: rgb(63, 95, 191);
+}
+.relax-ng-compact_comment4 {
+	color: navy;
+}
+.relax-ng-compact_literal1 {
+	color: rgb(42, 0, 255);
+}
+.relax-ng-compact_literal2 {
+	color: teal;
+}
+.rest_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.rest_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.rest_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.rest_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.rest_function {
+	color: navy;
+}
+.rest_markup {
+	color: navy;
+}
+.rest_operator {
+	color: rgb(127, 0, 85);
+}
+.rest_label {
+	color: olive;
+}
+.rest_digit {
+	color: red;
+}
+.rest_comment1 {
+	color: rgb(63, 127, 95);
+}
+.rest_comment2 {
+	color: rgb(153, 153, 153);
+}
+.rest_comment3 {
+	color: rgb(63, 95, 191);
+}
+.rest_comment4 {
+	color: navy;
+}
+.rest_literal1 {
+	color: rgb(42, 0, 255);
+}
+.rest_literal2 {
+	color: teal;
+}
+.rhtml_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.rhtml_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.rhtml_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.rhtml_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.rhtml_function {
+	color: navy;
+}
+.rhtml_markup {
+	color: navy;
+}
+.rhtml_operator {
+	color: rgb(127, 0, 85);
+}
+.rhtml_label {
+	color: olive;
+}
+.rhtml_digit {
+	color: red;
+}
+.rhtml_comment1 {
+	color: rgb(63, 127, 95);
+}
+.rhtml_comment2 {
+	color: rgb(153, 153, 153);
+}
+.rhtml_comment3 {
+	color: rgb(63, 95, 191);
+}
+.rhtml_comment4 {
+	color: navy;
+}
+.rhtml_literal1 {
+	color: rgb(42, 0, 255);
+}
+.rhtml_literal2 {
+	color: teal;
+}
+.rib_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.rib_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.rib_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.rib_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.rib_function {
+	color: navy;
+}
+.rib_markup {
+	color: navy;
+}
+.rib_operator {
+	color: rgb(127, 0, 85);
+}
+.rib_label {
+	color: olive;
+}
+.rib_digit {
+	color: red;
+}
+.rib_comment1 {
+	color: rgb(63, 127, 95);
+}
+.rib_comment2 {
+	color: rgb(153, 153, 153);
+}
+.rib_comment3 {
+	color: rgb(63, 95, 191);
+}
+.rib_comment4 {
+	color: navy;
+}
+.rib_literal1 {
+	color: rgb(42, 0, 255);
+}
+.rib_literal2 {
+	color: teal;
+}
+.rpmspec_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.rpmspec_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.rpmspec_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.rpmspec_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.rpmspec_function {
+	color: navy;
+}
+.rpmspec_markup {
+	color: navy;
+}
+.rpmspec_operator {
+	color: rgb(127, 0, 85);
+}
+.rpmspec_label {
+	color: olive;
+}
+.rpmspec_digit {
+	color: red;
+}
+.rpmspec_comment1 {
+	color: rgb(63, 127, 95);
+}
+.rpmspec_comment2 {
+	color: rgb(153, 153, 153);
+}
+.rpmspec_comment3 {
+	color: rgb(63, 95, 191);
+}
+.rpmspec_comment4 {
+	color: navy;
+}
+.rpmspec_literal1 {
+	color: rgb(42, 0, 255);
+}
+.rpmspec_literal2 {
+	color: teal;
+}
+.rtf_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.rtf_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.rtf_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.rtf_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.rtf_function {
+	color: navy;
+}
+.rtf_markup {
+	color: navy;
+}
+.rtf_operator {
+	color: rgb(127, 0, 85);
+}
+.rtf_label {
+	color: olive;
+}
+.rtf_digit {
+	color: red;
+}
+.rtf_comment1 {
+	color: rgb(63, 127, 95);
+}
+.rtf_comment2 {
+	color: rgb(153, 153, 153);
+}
+.rtf_comment3 {
+	color: rgb(63, 95, 191);
+}
+.rtf_comment4 {
+	color: navy;
+}
+.rtf_literal1 {
+	color: rgb(42, 0, 255);
+}
+.rtf_literal2 {
+	color: teal;
+}
+.ruby_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.ruby_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.ruby_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.ruby_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.ruby_function {
+	color: navy;
+}
+.ruby_markup {
+	color: navy;
+}
+.ruby_operator {
+	color: rgb(127, 0, 85);
+}
+.ruby_label {
+	color: olive;
+}
+.ruby_digit {
+	color: red;
+}
+.ruby_comment1 {
+	color: rgb(63, 127, 95);
+}
+.ruby_comment2 {
+	color: rgb(153, 153, 153);
+}
+.ruby_comment3 {
+	color: rgb(63, 95, 191);
+}
+.ruby_comment4 {
+	color: navy;
+}
+.ruby_literal1 {
+	color: rgb(42, 0, 255);
+}
+.ruby_literal2 {
+	color: teal;
+}
+.rview_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.rview_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.rview_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.rview_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.rview_function {
+	color: navy;
+}
+.rview_markup {
+	color: navy;
+}
+.rview_operator {
+	color: rgb(127, 0, 85);
+}
+.rview_label {
+	color: olive;
+}
+.rview_digit {
+	color: red;
+}
+.rview_comment1 {
+	color: rgb(63, 127, 95);
+}
+.rview_comment2 {
+	color: rgb(153, 153, 153);
+}
+.rview_comment3 {
+	color: rgb(63, 95, 191);
+}
+.rview_comment4 {
+	color: navy;
+}
+.rview_literal1 {
+	color: rgb(42, 0, 255);
+}
+.rview_literal2 {
+	color: teal;
+}
+.sas_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.sas_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.sas_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.sas_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.sas_function {
+	color: navy;
+}
+.sas_markup {
+	color: navy;
+}
+.sas_operator {
+	color: rgb(127, 0, 85);
+}
+.sas_label {
+	color: olive;
+}
+.sas_digit {
+	color: red;
+}
+.sas_comment1 {
+	color: rgb(63, 127, 95);
+}
+.sas_comment2 {
+	color: rgb(153, 153, 153);
+}
+.sas_comment3 {
+	color: rgb(63, 95, 191);
+}
+.sas_comment4 {
+	color: navy;
+}
+.sas_literal1 {
+	color: rgb(42, 0, 255);
+}
+.sas_literal2 {
+	color: teal;
+}
+.scheme_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.scheme_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.scheme_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.scheme_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.scheme_function {
+	color: navy;
+}
+.scheme_markup {
+	color: navy;
+}
+.scheme_operator {
+	color: rgb(127, 0, 85);
+}
+.scheme_label {
+	color: olive;
+}
+.scheme_digit {
+	color: red;
+}
+.scheme_comment1 {
+	color: rgb(63, 127, 95);
+}
+.scheme_comment2 {
+	color: rgb(153, 153, 153);
+}
+.scheme_comment3 {
+	color: rgb(63, 95, 191);
+}
+.scheme_comment4 {
+	color: navy;
+}
+.scheme_literal1 {
+	color: rgb(42, 0, 255);
+}
+.scheme_literal2 {
+	color: teal;
+}
+.scilab_literal1 {
+	color: rgb(188, 143, 143);
+}
+.scilab_literal2 {
+	color: rgb(176, 24, 19);
+}
+.scilab_keyword1 {
+	color: rgb(160, 32, 240);
+}
+.scilab_keyword2 {
+	color: rgb(94, 174, 176);
+}
+.scilab_keyword3 {
+	color: rgb(218, 112, 214);
+}
+.scilab_keyword4 {
+	color: rgb(255, 0, 0);
+}
+.scilab_comment1 {
+	color: rgb(1, 168, 1);
+}
+.scilab_operator {
+	color: rgb(255, 170, 0);
+}
+.scilab_digit {
+	color: rgb(188, 143, 143);
+}
+.scilab_function {
+	color: rgb(50, 185, 185);
+}
+.sdl_pr_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.sdl_pr_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.sdl_pr_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.sdl_pr_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.sdl_pr_function {
+	color: navy;
+}
+.sdl_pr_markup {
+	color: navy;
+}
+.sdl_pr_operator {
+	color: rgb(127, 0, 85);
+}
+.sdl_pr_label {
+	color: olive;
+}
+.sdl_pr_digit {
+	color: red;
+}
+.sdl_pr_comment1 {
+	color: rgb(63, 127, 95);
+}
+.sdl_pr_comment2 {
+	color: rgb(153, 153, 153);
+}
+.sdl_pr_comment3 {
+	color: rgb(63, 95, 191);
+}
+.sdl_pr_comment4 {
+	color: navy;
+}
+.sdl_pr_literal1 {
+	color: rgb(42, 0, 255);
+}
+.sdl_pr_literal2 {
+	color: teal;
+}
+.sgml_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.sgml_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.sgml_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.sgml_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.sgml_function {
+	color: navy;
+}
+.sgml_markup {
+	color: navy;
+}
+.sgml_operator {
+	color: rgb(127, 0, 85);
+}
+.sgml_label {
+	color: olive;
+}
+.sgml_digit {
+	color: red;
+}
+.sgml_comment1 {
+	color: rgb(63, 127, 95);
+}
+.sgml_comment2 {
+	color: rgb(153, 153, 153);
+}
+.sgml_comment3 {
+	color: rgb(63, 95, 191);
+}
+.sgml_comment4 {
+	color: navy;
+}
+.sgml_literal1 {
+	color: rgb(42, 0, 255);
+}
+.sgml_literal2 {
+	color: teal;
+}
+.shell_keyword1 {
+	color: rgb(0, 0, 0); font-weight: 700;
+}
+.shell_keyword2 {
+	color: rgb(0, 0, 0); font-style: italic; font-weight: 700;
+}
+.shell_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.shell_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.shell_function {
+	color: navy;
+}
+.shell_markup {
+	color: navy;
+}
+.shell_operator {
+	color: rgb(127, 0, 85);
+}
+.shell_label {
+	color: olive;
+}
+.shell_digit {
+	color: rgb(153, 0, 0);
+}
+.shell_comment1 {
+	color: rgb(153, 153, 153);
+}
+.shell_comment2 {
+	color: rgb(153, 153, 153); font-weight: 700;
+}
+.shell_comment3 {
+	color: rgb(63, 95, 191);
+}
+.shell_comment4 {
+	color: navy;
+}
+.shell_literal1 {
+	color: green;
+}
+.shell_literal2 {
+	color: teal;
+}
+.shellscript_keyword1 {
+	color: rgb(0, 0, 0); font-weight: 700;
+}
+.shellscript_keyword2 {
+	color: rgb(0, 0, 0); font-style: italic; font-weight: 700;
+}
+.shellscript_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.shellscript_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.shellscript_function {
+	color: navy;
+}
+.shellscript_markup {
+	color: navy;
+}
+.shellscript_operator {
+	color: rgb(127, 0, 85);
+}
+.shellscript_label {
+	color: olive;
+}
+.shellscript_digit {
+	color: rgb(153, 0, 0);
+}
+.shellscript_comment1 {
+	color: rgb(153, 153, 153);
+}
+.shellscript_comment2 {
+	color: rgb(153, 153, 153); font-weight: 700;
+}
+.shellscript_comment3 {
+	color: rgb(63, 95, 191);
+}
+.shellscript_comment4 {
+	color: navy;
+}
+.shellscript_literal1 {
+	color: green;
+}
+.shellscript_literal2 {
+	color: teal;
+}
+.shtml_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.shtml_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.shtml_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.shtml_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.shtml_function {
+	color: navy;
+}
+.shtml_markup {
+	color: navy;
+}
+.shtml_operator {
+	color: rgb(127, 0, 85);
+}
+.shtml_label {
+	color: olive;
+}
+.shtml_digit {
+	color: red;
+}
+.shtml_comment1 {
+	color: rgb(63, 127, 95);
+}
+.shtml_comment2 {
+	color: rgb(153, 153, 153);
+}
+.shtml_comment3 {
+	color: rgb(63, 95, 191);
+}
+.shtml_comment4 {
+	color: navy;
+}
+.shtml_literal1 {
+	color: rgb(42, 0, 255);
+}
+.shtml_literal2 {
+	color: teal;
+}
+.slate_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.slate_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.slate_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.slate_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.slate_function {
+	color: navy;
+}
+.slate_markup {
+	color: navy;
+}
+.slate_operator {
+	color: rgb(127, 0, 85);
+}
+.slate_label {
+	color: olive;
+}
+.slate_digit {
+	color: red;
+}
+.slate_comment1 {
+	color: rgb(63, 127, 95);
+}
+.slate_comment2 {
+	color: rgb(153, 153, 153);
+}
+.slate_comment3 {
+	color: rgb(63, 95, 191);
+}
+.slate_comment4 {
+	color: navy;
+}
+.slate_literal1 {
+	color: rgb(42, 0, 255);
+}
+.slate_literal2 {
+	color: teal;
+}
+.smalltalk_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.smalltalk_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.smalltalk_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.smalltalk_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.smalltalk_function {
+	color: navy;
+}
+.smalltalk_markup {
+	color: navy;
+}
+.smalltalk_operator {
+	color: rgb(127, 0, 85);
+}
+.smalltalk_label {
+	color: olive;
+}
+.smalltalk_digit {
+	color: red;
+}
+.smalltalk_comment1 {
+	color: rgb(63, 127, 95);
+}
+.smalltalk_comment2 {
+	color: rgb(153, 153, 153);
+}
+.smalltalk_comment3 {
+	color: rgb(63, 95, 191);
+}
+.smalltalk_comment4 {
+	color: navy;
+}
+.smalltalk_literal1 {
+	color: rgb(42, 0, 255);
+}
+.smalltalk_literal2 {
+	color: teal;
+}
+.smi-mib_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.smi-mib_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.smi-mib_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.smi-mib_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.smi-mib_function {
+	color: navy;
+}
+.smi-mib_markup {
+	color: navy;
+}
+.smi-mib_operator {
+	color: rgb(127, 0, 85);
+}
+.smi-mib_label {
+	color: olive;
+}
+.smi-mib_digit {
+	color: red;
+}
+.smi-mib_comment1 {
+	color: rgb(63, 127, 95);
+}
+.smi-mib_comment2 {
+	color: rgb(153, 153, 153);
+}
+.smi-mib_comment3 {
+	color: rgb(63, 95, 191);
+}
+.smi-mib_comment4 {
+	color: navy;
+}
+.smi-mib_literal1 {
+	color: rgb(42, 0, 255);
+}
+.smi-mib_literal2 {
+	color: teal;
+}
+.splus_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.splus_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.splus_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.splus_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.splus_function {
+	color: navy;
+}
+.splus_markup {
+	color: navy;
+}
+.splus_operator {
+	color: rgb(127, 0, 85);
+}
+.splus_label {
+	color: olive;
+}
+.splus_digit {
+	color: red;
+}
+.splus_comment1 {
+	color: rgb(63, 127, 95);
+}
+.splus_comment2 {
+	color: rgb(153, 153, 153);
+}
+.splus_comment3 {
+	color: rgb(63, 95, 191);
+}
+.splus_comment4 {
+	color: navy;
+}
+.splus_literal1 {
+	color: rgb(42, 0, 255);
+}
+.splus_literal2 {
+	color: teal;
+}
+.sql_keyword1 {
+	color: rgb(0, 51, 255);
+}
+.sql_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.sql_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.sql_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.sql_function {
+	color: navy;
+}
+.sql_markup {
+	color: navy;
+}
+.sql_operator {
+	color: rgb(127, 0, 85);
+}
+.sql_label {
+	color: olive;
+}
+.sql_digit {
+	color: red;
+}
+.sql_comment1 {
+	color: rgb(102, 153, 51);
+}
+.sql_comment2 {
+	color: rgb(102, 153, 51);
+}
+.sql_comment3 {
+	color: rgb(102, 153, 51);
+}
+.sql_comment4 {
+	color: rgb(102, 153, 51);
+}
+.sql_literal1 {
+	color: rgb(153, 51, 153);
+}
+.sql_literal2 {
+	color: teal;
+}
+.sqr_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.sqr_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.sqr_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.sqr_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.sqr_function {
+	color: navy;
+}
+.sqr_markup {
+	color: navy;
+}
+.sqr_operator {
+	color: rgb(127, 0, 85);
+}
+.sqr_label {
+	color: olive;
+}
+.sqr_digit {
+	color: red;
+}
+.sqr_comment1 {
+	color: rgb(63, 127, 95);
+}
+.sqr_comment2 {
+	color: rgb(153, 153, 153);
+}
+.sqr_comment3 {
+	color: rgb(63, 95, 191);
+}
+.sqr_comment4 {
+	color: navy;
+}
+.sqr_literal1 {
+	color: rgb(42, 0, 255);
+}
+.sqr_literal2 {
+	color: teal;
+}
+.squidconf_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.squidconf_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.squidconf_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.squidconf_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.squidconf_function {
+	color: navy;
+}
+.squidconf_markup {
+	color: navy;
+}
+.squidconf_operator {
+	color: rgb(127, 0, 85);
+}
+.squidconf_label {
+	color: olive;
+}
+.squidconf_digit {
+	color: red;
+}
+.squidconf_comment1 {
+	color: rgb(63, 127, 95);
+}
+.squidconf_comment2 {
+	color: rgb(153, 153, 153);
+}
+.squidconf_comment3 {
+	color: rgb(63, 95, 191);
+}
+.squidconf_comment4 {
+	color: navy;
+}
+.squidconf_literal1 {
+	color: rgb(42, 0, 255);
+}
+.squidconf_literal2 {
+	color: teal;
+}
+.ssharp_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.ssharp_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.ssharp_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.ssharp_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.ssharp_function {
+	color: navy;
+}
+.ssharp_markup {
+	color: navy;
+}
+.ssharp_operator {
+	color: rgb(127, 0, 85);
+}
+.ssharp_label {
+	color: olive;
+}
+.ssharp_digit {
+	color: red;
+}
+.ssharp_comment1 {
+	color: rgb(63, 127, 95);
+}
+.ssharp_comment2 {
+	color: rgb(153, 153, 153);
+}
+.ssharp_comment3 {
+	color: rgb(63, 95, 191);
+}
+.ssharp_comment4 {
+	color: navy;
+}
+.ssharp_literal1 {
+	color: rgb(42, 0, 255);
+}
+.ssharp_literal2 {
+	color: teal;
+}
+.svn-commit_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.svn-commit_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.svn-commit_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.svn-commit_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.svn-commit_function {
+	color: navy;
+}
+.svn-commit_markup {
+	color: navy;
+}
+.svn-commit_operator {
+	color: rgb(127, 0, 85);
+}
+.svn-commit_label {
+	color: olive;
+}
+.svn-commit_digit {
+	color: red;
+}
+.svn-commit_comment1 {
+	color: rgb(63, 127, 95);
+}
+.svn-commit_comment2 {
+	color: rgb(153, 153, 153);
+}
+.svn-commit_comment3 {
+	color: rgb(63, 95, 191);
+}
+.svn-commit_comment4 {
+	color: navy;
+}
+.svn-commit_literal1 {
+	color: rgb(42, 0, 255);
+}
+.svn-commit_literal2 {
+	color: teal;
+}
+.swift_comment1 {
+	color: rgb(0, 131, 18);
+}
+.swift_comment2 {
+	color: rgb(0, 131, 18);
+}
+.swift_literal1 {
+	color: rgb(80, 129, 135);
+}
+.swift_literal2 {
+	color: rgb(196, 26, 22);
+}
+.swift_literal3 {
+	color: rgb(150, 17, 17);
+}
+.swift_literal4 {
+	color: rgb(111, 65, 167);
+}
+.swift_operator {
+	color: rgb(0, 0, 0);
+}
+.swift_digit {
+	color: rgb(28, 0, 207);
+}
+.swift_keyword1 {
+	color: rgb(184, 51, 161);
+}
+.swift_keyword2 {
+	color: rgb(111, 65, 167);
+}
+.swig_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.swig_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.swig_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.swig_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.swig_function {
+	color: navy;
+}
+.swig_markup {
+	color: navy;
+}
+.swig_operator {
+	color: rgb(127, 0, 85);
+}
+.swig_label {
+	color: olive;
+}
+.swig_digit {
+	color: red;
+}
+.swig_comment1 {
+	color: rgb(63, 127, 95);
+}
+.swig_comment2 {
+	color: rgb(153, 153, 153);
+}
+.swig_comment3 {
+	color: rgb(63, 95, 191);
+}
+.swig_comment4 {
+	color: navy;
+}
+.swig_literal1 {
+	color: rgb(42, 0, 255);
+}
+.swig_literal2 {
+	color: teal;
+}
+.tcl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.tcl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.tcl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.tcl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.tcl_function {
+	color: navy;
+}
+.tcl_markup {
+	color: navy;
+}
+.tcl_operator {
+	color: rgb(127, 0, 85);
+}
+.tcl_label {
+	color: olive;
+}
+.tcl_digit {
+	color: red;
+}
+.tcl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.tcl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.tcl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.tcl_comment4 {
+	color: navy;
+}
+.tcl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.tcl_literal2 {
+	color: teal;
+}
+.texinfo_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.texinfo_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.texinfo_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.texinfo_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.texinfo_function {
+	color: navy;
+}
+.texinfo_markup {
+	color: navy;
+}
+.texinfo_operator {
+	color: rgb(127, 0, 85);
+}
+.texinfo_label {
+	color: olive;
+}
+.texinfo_digit {
+	color: red;
+}
+.texinfo_comment1 {
+	color: rgb(63, 127, 95);
+}
+.texinfo_comment2 {
+	color: rgb(153, 153, 153);
+}
+.texinfo_comment3 {
+	color: rgb(63, 95, 191);
+}
+.texinfo_comment4 {
+	color: navy;
+}
+.texinfo_literal1 {
+	color: rgb(42, 0, 255);
+}
+.texinfo_literal2 {
+	color: teal;
+}
+.text_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.text_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.text_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.text_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.text_function {
+	color: navy;
+}
+.text_markup {
+	color: navy;
+}
+.text_operator {
+	color: rgb(127, 0, 85);
+}
+.text_label {
+	color: olive;
+}
+.text_digit {
+	color: red;
+}
+.text_comment1 {
+	color: rgb(63, 127, 95);
+}
+.text_comment2 {
+	color: rgb(153, 153, 153);
+}
+.text_comment3 {
+	color: rgb(63, 95, 191);
+}
+.text_comment4 {
+	color: navy;
+}
+.text_literal1 {
+	color: rgb(42, 0, 255);
+}
+.text_literal2 {
+	color: teal;
+}
+.tpl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.tpl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.tpl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.tpl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.tpl_function {
+	color: navy;
+}
+.tpl_markup {
+	color: navy;
+}
+.tpl_operator {
+	color: rgb(127, 0, 85);
+}
+.tpl_label {
+	color: olive;
+}
+.tpl_digit {
+	color: red;
+}
+.tpl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.tpl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.tpl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.tpl_comment4 {
+	color: navy;
+}
+.tpl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.tpl_literal2 {
+	color: teal;
+}
+.tsql_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.tsql_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.tsql_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.tsql_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.tsql_function {
+	color: navy;
+}
+.tsql_markup {
+	color: navy;
+}
+.tsql_operator {
+	color: rgb(127, 0, 85);
+}
+.tsql_label {
+	color: olive;
+}
+.tsql_digit {
+	color: red;
+}
+.tsql_comment1 {
+	color: rgb(63, 127, 95);
+}
+.tsql_comment2 {
+	color: rgb(153, 153, 153);
+}
+.tsql_comment3 {
+	color: rgb(63, 95, 191);
+}
+.tsql_comment4 {
+	color: navy;
+}
+.tsql_literal1 {
+	color: rgb(42, 0, 255);
+}
+.tsql_literal2 {
+	color: teal;
+}
+.twiki_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.twiki_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.twiki_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.twiki_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.twiki_function {
+	color: navy;
+}
+.twiki_markup {
+	color: navy;
+}
+.twiki_operator {
+	color: rgb(127, 0, 85);
+}
+.twiki_label {
+	color: olive;
+}
+.twiki_digit {
+	color: red;
+}
+.twiki_comment1 {
+	color: rgb(63, 127, 95);
+}
+.twiki_comment2 {
+	color: rgb(153, 153, 153);
+}
+.twiki_comment3 {
+	color: rgb(63, 95, 191);
+}
+.twiki_comment4 {
+	color: navy;
+}
+.twiki_literal1 {
+	color: rgb(42, 0, 255);
+}
+.twiki_literal2 {
+	color: teal;
+}
+.typescript_keyword1 {
+	color: rgb(127, 0, 85); font-weight: 700;
+}
+.typescript_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.typescript_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.typescript_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.typescript_function {
+	color: navy;
+}
+.typescript_markup {
+	color: navy;
+}
+.typescript_operator {
+	color: rgb(127, 0, 85);
+}
+.typescript_label {
+	color: olive;
+}
+.typescript_digit {
+	color: red;
+}
+.typescript_comment1 {
+	color: rgb(63, 127, 95);
+}
+.typescript_comment2 {
+	color: rgb(153, 153, 153);
+}
+.typescript_comment3 {
+	color: rgb(63, 95, 191);
+}
+.typescript_comment4 {
+	color: navy;
+}
+.typescript_literal1 {
+	color: rgb(42, 0, 255);
+}
+.typescript_literal2 {
+	color: teal;
+}
+.typoscript_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.typoscript_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.typoscript_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.typoscript_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.typoscript_function {
+	color: navy;
+}
+.typoscript_markup {
+	color: navy;
+}
+.typoscript_operator {
+	color: rgb(127, 0, 85);
+}
+.typoscript_label {
+	color: olive;
+}
+.typoscript_digit {
+	color: red;
+}
+.typoscript_comment1 {
+	color: rgb(63, 127, 95);
+}
+.typoscript_comment2 {
+	color: rgb(153, 153, 153);
+}
+.typoscript_comment3 {
+	color: rgb(63, 95, 191);
+}
+.typoscript_comment4 {
+	color: navy;
+}
+.typoscript_literal1 {
+	color: rgb(42, 0, 255);
+}
+.typoscript_literal2 {
+	color: teal;
+}
+.uscript_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.uscript_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.uscript_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.uscript_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.uscript_function {
+	color: navy;
+}
+.uscript_markup {
+	color: navy;
+}
+.uscript_operator {
+	color: rgb(127, 0, 85);
+}
+.uscript_label {
+	color: olive;
+}
+.uscript_digit {
+	color: red;
+}
+.uscript_comment1 {
+	color: rgb(63, 127, 95);
+}
+.uscript_comment2 {
+	color: rgb(153, 153, 153);
+}
+.uscript_comment3 {
+	color: rgb(63, 95, 191);
+}
+.uscript_comment4 {
+	color: navy;
+}
+.uscript_literal1 {
+	color: rgb(42, 0, 255);
+}
+.uscript_literal2 {
+	color: teal;
+}
+.vb_keyword1 {
+	color: rgb(51, 102, 204); font-weight: 700;
+}
+.vb_keyword2 {
+	color: rgb(51, 102, 204);
+}
+.vb_keyword3 {
+	color: rgb(51, 102, 204);
+}
+.vb_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.vb_function {
+	color: rgb(51, 102, 204);
+}
+.vb_markup {
+	color: rgb(51, 102, 204);
+}
+.vb_operator {
+	color: rgb(127, 0, 85);
+}
+.vb_label {
+	color: olive;
+}
+.vb_digit {
+	color: red;
+}
+.vb_comment1 {
+	color: green;
+}
+.vb_comment2 {
+	color: rgb(153, 153, 153);
+}
+.vb_comment3 {
+	color: rgb(63, 95, 191);
+}
+.vb_comment4 {
+	color: navy;
+}
+.vb_literal1 {
+	color: rgb(153, 51, 153);
+}
+.vb_literal2 {
+	color: rgb(51, 102, 204);
+}
+.vbnet_keyword1 {
+	color: rgb(51, 102, 204); font-weight: 700;
+}
+.vbnet_keyword2 {
+	color: rgb(51, 102, 204);
+}
+.vbnet_keyword3 {
+	color: rgb(51, 102, 204);
+}
+.vbnet_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.vbnet_function {
+	color: rgb(51, 102, 204);
+}
+.vbnet_markup {
+	color: rgb(51, 102, 204);
+}
+.vbnet_operator {
+	color: rgb(127, 0, 85);
+}
+.vbnet_label {
+	color: olive;
+}
+.vbnet_digit {
+	color: red;
+}
+.vbnet_comment1 {
+	color: green;
+}
+.vbnet_comment2 {
+	color: rgb(153, 153, 153);
+}
+.vbnet_comment3 {
+	color: rgb(63, 95, 191);
+}
+.vbnet_comment4 {
+	color: navy;
+}
+.vbnet_literal1 {
+	color: rgb(153, 51, 153);
+}
+.vbnet_literal2 {
+	color: rgb(51, 102, 204);
+}
+.vbscript_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.vbscript_keyword2 {
+	color: rgb(51, 102, 204); font-weight: 700;
+}
+.vbscript_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.vbscript_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.vbscript_function {
+	color: navy;
+}
+.vbscript_markup {
+	color: navy;
+}
+.vbscript_operator {
+	color: rgb(127, 0, 85);
+}
+.vbscript_label {
+	color: olive;
+}
+.vbscript_digit {
+	color: red;
+}
+.vbscript_comment1 {
+	color: rgb(63, 127, 95);
+}
+.vbscript_comment2 {
+	color: rgb(153, 153, 153);
+}
+.vbscript_comment3 {
+	color: rgb(63, 95, 191);
+}
+.vbscript_comment4 {
+	color: navy;
+}
+.vbscript_literal1 {
+	color: rgb(42, 0, 255);
+}
+.vbscript_literal2 {
+	color: teal;
+}
+.velocity_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.velocity_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.velocity_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.velocity_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.velocity_function {
+	color: navy;
+}
+.velocity_markup {
+	color: navy;
+}
+.velocity_operator {
+	color: rgb(127, 0, 85);
+}
+.velocity_label {
+	color: olive;
+}
+.velocity_digit {
+	color: red;
+}
+.velocity_comment1 {
+	color: rgb(63, 127, 95);
+}
+.velocity_comment2 {
+	color: rgb(153, 153, 153);
+}
+.velocity_comment3 {
+	color: rgb(63, 95, 191);
+}
+.velocity_comment4 {
+	color: navy;
+}
+.velocity_literal1 {
+	color: rgb(42, 0, 255);
+}
+.velocity_literal2 {
+	color: teal;
+}
+.verilog_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.verilog_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.verilog_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.verilog_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.verilog_function {
+	color: navy;
+}
+.verilog_markup {
+	color: navy;
+}
+.verilog_operator {
+	color: rgb(127, 0, 85);
+}
+.verilog_label {
+	color: olive;
+}
+.verilog_digit {
+	color: red;
+}
+.verilog_comment1 {
+	color: rgb(63, 127, 95);
+}
+.verilog_comment2 {
+	color: rgb(153, 153, 153);
+}
+.verilog_comment3 {
+	color: rgb(63, 95, 191);
+}
+.verilog_comment4 {
+	color: navy;
+}
+.verilog_literal1 {
+	color: rgb(42, 0, 255);
+}
+.verilog_literal2 {
+	color: teal;
+}
+.vhdl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.vhdl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.vhdl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.vhdl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.vhdl_function {
+	color: navy;
+}
+.vhdl_markup {
+	color: navy;
+}
+.vhdl_operator {
+	color: rgb(127, 0, 85);
+}
+.vhdl_label {
+	color: olive;
+}
+.vhdl_digit {
+	color: red;
+}
+.vhdl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.vhdl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.vhdl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.vhdl_comment4 {
+	color: navy;
+}
+.vhdl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.vhdl_literal2 {
+	color: teal;
+}
+.xml_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.xml_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.xml_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.xml_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.xml_function {
+	color: navy;
+}
+.xml_markup {
+	color: navy;
+}
+.xml_operator {
+	color: rgb(127, 0, 85);
+}
+.xml_label {
+	color: olive;
+}
+.xml_digit {
+	color: red;
+}
+.xml_comment1 {
+	color: rgb(63, 127, 95);
+}
+.xml_comment2 {
+	color: rgb(153, 153, 153);
+}
+.xml_comment3 {
+	color: rgb(63, 95, 191);
+}
+.xml_comment4 {
+	color: navy;
+}
+.xml_literal1 {
+	color: rgb(42, 0, 255);
+}
+.xml_literal2 {
+	color: teal;
+}
+.xq_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.xq_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.xq_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.xq_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.xq_function {
+	color: navy;
+}
+.xq_markup {
+	color: navy;
+}
+.xq_operator {
+	color: rgb(127, 0, 85);
+}
+.xq_label {
+	color: olive;
+}
+.xq_digit {
+	color: red;
+}
+.xq_comment1 {
+	color: rgb(63, 127, 95);
+}
+.xq_comment2 {
+	color: rgb(153, 153, 153);
+}
+.xq_comment3 {
+	color: rgb(63, 95, 191);
+}
+.xq_comment4 {
+	color: navy;
+}
+.xq_literal1 {
+	color: rgb(42, 0, 255);
+}
+.xq_literal2 {
+	color: teal;
+}
+.xsl_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.xsl_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.xsl_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.xsl_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.xsl_function {
+	color: navy;
+}
+.xsl_markup {
+	color: navy;
+}
+.xsl_operator {
+	color: rgb(127, 0, 85);
+}
+.xsl_label {
+	color: olive;
+}
+.xsl_digit {
+	color: red;
+}
+.xsl_comment1 {
+	color: rgb(63, 127, 95);
+}
+.xsl_comment2 {
+	color: rgb(153, 153, 153);
+}
+.xsl_comment3 {
+	color: rgb(63, 95, 191);
+}
+.xsl_comment4 {
+	color: navy;
+}
+.xsl_literal1 {
+	color: rgb(42, 0, 255);
+}
+.xsl_literal2 {
+	color: teal;
+}
+.zpt_keyword1 {
+	color: rgb(127, 0, 85);
+}
+.zpt_keyword2 {
+	color: rgb(0, 51, 255);
+}
+.zpt_keyword3 {
+	color: rgb(48, 102, 172);
+}
+.zpt_keyword4 {
+	color: rgb(51, 102, 204);
+}
+.zpt_function {
+	color: navy;
+}
+.zpt_markup {
+	color: navy;
+}
+.zpt_operator {
+	color: rgb(127, 0, 85);
+}
+.zpt_label {
+	color: olive;
+}
+.zpt_digit {
+	color: red;
+}
+.zpt_comment1 {
+	color: rgb(63, 127, 95);
+}
+.zpt_comment2 {
+	color: rgb(153, 153, 153);
+}
+.zpt_comment3 {
+	color: rgb(63, 95, 191);
+}
+.zpt_comment4 {
+	color: navy;
+}
+.zpt_literal1 {
+	color: rgb(42, 0, 255);
+}
+.zpt_literal2 {
+	color: teal;
+}
+.qt_keyword1 {
+	color: rgb(0, 0, 255);
+}
+.qt_keyword2 {
+	color: rgb(0, 0, 255);
+}
+.qt_keyword3 {
+	color: rgb(0, 0, 255);
+}
+.qt_keyword4 {
+	color: rgb(160, 32, 160); font-weight: 700;
+}
+.qt_function {
+	color: rgb(0, 0, 0);
+}
+.qt_markup {
+	color: rgb(0, 0, 0);
+}
+.qt_operator {
+	color: navy;
+}
+.qt_label {
+	color: olive;
+}
+.qt_digit {
+	color: red;
+}
+.qt_comment1 {
+	color: green;
+}
+.qt_comment2 {
+	color: green;
+}
+.qt_comment3 {
+	color: rgb(63, 95, 191);
+}
+.qt_comment4 {
+	color: navy;
+}
+.qt_literal1 {
+	color: rgb(51, 153, 153);
+}
+.qt_literal2 {
+	color: olive;
+}
+.windev_keyword1 {
+	color: blue; font-family: Courier New,Courier,mono; font-weight: 700; text-decoration: none;
+}
+.windev_keyword2 {
+	font-family: Courier New,Courier,mono; font-weight: 700; text-decoration: none;
+}
+.windev_keyword3 {
+	font-family: Courier New,Courier,mono; font-weight: 700; text-decoration: none;
+}
+.windev_keyword4 {
+	font-family: Courier New,Courier,mono; text-decoration: none;
+}
+.windev_function {
+	color: rgb(0, 0, 204); font-family: Courier New,Courier,mono; text-decoration: none;
+}
+.windev_markup {
+	color: rgb(0, 0, 204); font-family: Courier New,Courier,mono; text-decoration: none;
+}
+.windev_operator {
+	color: rgb(127, 0, 85);
+}
+.windev_label {
+	color: rgb(102, 0, 102);
+}
+.windev_digit {
+	color: rgb(102, 0, 102); font-family: Courier New,Courier,mono; text-decoration: none;
+}
+.windev_comment1 {
+	font: 9pt/normal Courier New, Courier, mono; color: gray; text-decoration: none; font-size-adjust: none; font-stretch: normal;
+}
+.windev_comment2 {
+	font: 9pt/normal Courier New, Courier, mono; color: gray; text-decoration: none; font-size-adjust: none; font-stretch: normal;
+}
+.windev_comment3 {
+	color: blue;
+}
+.windev_comment4 {
+	color: green;
+}
+.windev_literal1 {
+	color: rgb(102, 0, 102); font-family: Tahoma,Segoe UI,Arial,Helvetica,sans-serif; text-decoration: none;
+}
+.windev_literal2 {
+	color: blue; font-style: italic;
+}
